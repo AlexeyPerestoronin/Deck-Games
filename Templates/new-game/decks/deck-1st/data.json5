@@ -1,5 +1,5 @@
 {
-    "name": "new-game.deck-1st",
+    "name": "deck-1st",
     "view": {
         "face": "simple-front.html",
         "back": "simple-back.html"
