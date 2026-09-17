@@ -1,0 +1,110 @@
+@page {
+  size: {{ card_width_mm }}mm {{ card_height_mm }}mm;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: {{ card_width_mm }}mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #f4efe4;
+  color: #1b1712;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  border: 0.6mm solid #2b2118;
+  border-radius: 3mm;
+  page-break-after: always;
+  break-after: page;
+
+  &:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 7mm;
+    background: var(--band, #6b8f3c);
+
+    &.top { top: 0; }
+    &.bot { bottom: 0; }
+  }
+
+  .number {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-54%);
+    text-align: center;
+    font-size: 38pt;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  .heads {
+    position: absolute;
+    left: 4mm;
+    right: 4mm;
+    display: flex;
+    justify-content: center;
+    gap: 1.2mm;
+    z-index: 2;
+
+    &.top-heads { top: 8.5mm; }
+    &.bot-heads { bottom: 8.5mm; transform: rotate(180deg); }
+
+    i {
+      display: none;
+      width: 5.2mm;
+      height: 4.4mm;
+      position: relative;
+      background: #3a2a1a;
+      border-radius: 50% 50% 45% 45%;
+    }
+
+    i::before,
+    i::after {
+      content: "";
+      position: absolute;
+      width: 1.6mm;
+      height: 2.4mm;
+      background: #3a2a1a;
+      border-radius: 80% 0 40% 40%;
+      top: -1.4mm;
+    }
+    i::before { left: -0.2mm; transform: rotate(-28deg); }
+    i::after { right: -0.2mm; transform: scaleX(-1) rotate(-28deg); }
+  }
+
+  .score {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.4mm;
+    text-align: center;
+    font-size: 6pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #f4efe4;
+    z-index: 3;
+  }
+}
+
+.bulls-1 .heads i:nth-child(-n+1),
+.bulls-2 .heads i:nth-child(-n+2),
+.bulls-3 .heads i:nth-child(-n+3),
+.bulls-5 .heads i:nth-child(-n+5),
+.bulls-7 .heads i:nth-child(-n+7) {
+  display: block;
+}

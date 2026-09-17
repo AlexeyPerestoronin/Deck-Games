@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Уно</title>
+  <style>
+@page {
+  size: 58mm 88mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 58mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: var(--c, #e0192c);
+  color: var(--ink, #fff);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .rim {
+  position: absolute;
+  inset: 2.2mm;
+  border: 0.7mm solid #fff;
+  border-radius: 3mm;
+  pointer-events: none;
+}
+.card .corner {
+  position: absolute;
+  z-index: 3;
+  width: 12mm;
+  text-align: center;
+  font-weight: 800;
+  font-size: 11pt;
+  line-height: 1;
+  text-shadow: 0 0.3mm 0 rgba(0, 0, 0, 0.25);
+}
+.card .corner.top {
+  top: 3.2mm;
+  left: 1.6mm;
+}
+.card .corner.bot {
+  right: 1.6mm;
+  bottom: 3.2mm;
+  transform: rotate(180deg);
+}
+.card .oval {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 38mm;
+  height: 58mm;
+  transform: translate(-50%, -50%) rotate(-18deg);
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.6mm rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.card .glyph {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c, #e0192c);
+  font-size: 32pt;
+  font-weight: 900;
+  transform: rotate(18deg);
+  letter-spacing: -0.04em;
+}
+.card .wild-pie {
+  display: none;
+  position: absolute;
+  inset: 0;
+}
+.card .wild-pie .q {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+.card .wild-pie .q1 {
+  top: 0;
+  left: 0;
+  background: #e0192c;
+}
+.card .wild-pie .q2 {
+  top: 0;
+  right: 0;
+  background: #f5d000;
+}
+.card .wild-pie .q3 {
+  bottom: 0;
+  left: 0;
+  background: #1f9a3f;
+}
+.card .wild-pie .q4 {
+  bottom: 0;
+  right: 0;
+  background: #1d6fd1;
+}
+
+.kind-wild .wild-pie,
+.kind-wild4 .wild-pie {
+  display: block;
+}
+.kind-wild .glyph,
+.kind-wild4 .glyph {
+  color: #111;
+  mix-blend-mode: multiply;
+  font-size: 22pt;
+}
+
+.kind-wild .glyph {
+  font-size: 0;
+}
+
+.kind-wild .glyph::after {
+  content: "";
+}
+
+.color-yellow {
+  --ink: #1a1a1a;
+}
+.color-yellow .corner {
+  color: #1a1a1a;
+  text-shadow: none;
+}  </style>
+</head>
+<body>
+  <article class="card kind-number color-red" style="width: 58.0mm; height: 88.0mm; --c: #e0192c; --ink: #ffffff;">
+    <div class="rim"></div>
+    <div class="corner top">7</div>
+    <div class="oval">
+      <div class="wild-pie" aria-hidden="true">
+        <span class="q q1"></span><span class="q q2"></span><span class="q q3"></span><span class="q q4"></span>
+      </div>
+      <div class="glyph">7</div>
+    </div>
+    <div class="corner bot">7</div>
+  </article>
+</body>
+</html>

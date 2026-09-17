@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Свинтус — превью</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #ffe5ec; color: #3b1520; font-family: "Comic Sans MS", "Trebuchet MS", cursive, sans-serif; }
+    .page { max-width: 980px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 40px; margin: 0; transform: rotate(-2deg); display: inline-block; background: #ff8fab; padding: 6px 14px; border: 3px solid #3b1520; box-shadow: 6px 6px 0 #3b1520; }
+    .kicker { margin: 14px 0 22px; font-size: 16px; }
+    .strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .panel {
+      background: #fff;
+      border: 3px solid #3b1520;
+      padding: 12px;
+      position: relative;
+      min-height: 360px;
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      background: #ffc2d4;
+      display: inline-block;
+      padding: 2px 8px;
+      border: 2px solid #3b1520;
+    }
+    .bubble {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      background: #fff;
+      border: 2px solid #3b1520;
+      border-radius: 18px;
+      padding: 6px 10px;
+      font-size: 13px;
+      max-width: 46%;
+      z-index: 2;
+    }
+    .bubble::after {
+      content: "";
+      position: absolute;
+      left: 16px;
+      bottom: -10px;
+      border: 6px solid transparent;
+      border-top-color: #3b1520;
+    }
+    iframe {
+      width: 56mm;
+      height: 89mm;
+      border: 0;
+      display: block;
+      margin: 18px auto 0;
+    }
+    .foot { margin-top: 18px; font-size: 14px; }
+    @media (max-width: 800px) { .strip { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Свинтус</h1>
+    <p class="kicker">Классическая колода 112 карт. Цифры 0–7 и свинские предписания. Комикс этикета — не галерея.</p>
+    <div class="strip">
+      <section class="panel">
+        <div class="bubble">на семёрку!</div>
+        <h2>1. Подложи</h2>
+        <iframe src="card-1-face.html" title="семёрка"></iframe>
+      </section>
+      <section class="panel">
+        <div class="bubble">держи три</div>
+        <h2>2. Хапеж</h2>
+        <iframe src="card-2-face.html" title="Хапеж"></iframe>
+      </section>
+      <section class="panel">
+        <div class="bubble">…</div>
+        <h2>3. Молчагрив</h2>
+        <iframe src="card-3-face.html" title="Молчагрив"></iframe>
+      </section>
+      <section class="panel">
+        <div class="bubble">хлоп!</div>
+        <h2>4. Хлопкопыт</h2>
+        <iframe src="card-4-face.html" title="Хлопкопыт"></iframe>
+      </section>
+    </div>
+    <p class="foot">Кто заговорил на Молчагриве — две карты. Кто последний хлопнул — тоже две. Рубашки: card-1-back.html … card-4-back.html в этой же папке.</p>
+  </div>
+</body>
+</html>

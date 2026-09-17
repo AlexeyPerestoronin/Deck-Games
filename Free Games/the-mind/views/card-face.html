@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }}</title>
+  <style>
+    {% include 'card-face.scss' %}
+  </style>
+</head>
+<body>
+{% for card in cards %}
+  <article class="card" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm;">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="num">{{ card.mark }}</div>
+  </article>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,48 @@
+@page {
+  size: {{ card_width_mm }}mm {{ card_height_mm }}mm;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: {{ card_width_mm }}mm;
+  height: {{ card_height_mm }}mm;
+  background: #000;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 2mm;
+  background: #07080b;
+  color: #e8e6df;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border: 0.5mm solid #2a2e38;
+
+  .pulse {
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    width: 18mm;
+    height: 18mm;
+    transform: translate(-50%, -50%);
+    border: 0.45mm solid rgba(232, 230, 223, 0.7);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4mm rgba(232, 230, 223, 0.06);
+  }
+
+  .quiet {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12mm;
+    text-align: center;
+    font-size: 8pt;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+}

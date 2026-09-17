@@ -1,0 +1,850 @@
+{
+    "name": "take-6.cards",
+    "view": {
+        "face": "card-face.html",
+        "back": "card-back.html"
+    },
+    "deck": {
+        "game_name": "${game:name}",
+        "title": "Корова 006",
+        "subtitle": "Take 6! / 6 nimmt!",
+        "category": "Одновременный сброс в ряды",
+        "card_count": "104 карты",
+        "card_width_mm": ${card:width_mm},
+        "card_height_mm": ${card:height_mm}
+    },
+    "cards": [
+        {
+            "name": "карта 1",
+            "kind": "number",
+            "number": 1,
+            "mark": "1",
+            "bulls": 1,
+            "band": "#157a58"
+        },
+        {
+            "name": "карта 2",
+            "kind": "number",
+            "number": 2,
+            "mark": "2",
+            "bulls": 1,
+            "band": "#167c57"
+        },
+        {
+            "name": "карта 3",
+            "kind": "number",
+            "number": 3,
+            "mark": "3",
+            "bulls": 1,
+            "band": "#177e56"
+        },
+        {
+            "name": "карта 4",
+            "kind": "number",
+            "number": 4,
+            "mark": "4",
+            "bulls": 1,
+            "band": "#188155"
+        },
+        {
+            "name": "карта 5",
+            "kind": "number",
+            "number": 5,
+            "mark": "5",
+            "bulls": 2,
+            "band": "#198354"
+        },
+        {
+            "name": "карта 6",
+            "kind": "number",
+            "number": 6,
+            "mark": "6",
+            "bulls": 1,
+            "band": "#1a8553"
+        },
+        {
+            "name": "карта 7",
+            "kind": "number",
+            "number": 7,
+            "mark": "7",
+            "bulls": 1,
+            "band": "#1c8851"
+        },
+        {
+            "name": "карта 8",
+            "kind": "number",
+            "number": 8,
+            "mark": "8",
+            "bulls": 1,
+            "band": "#1d8a50"
+        },
+        {
+            "name": "карта 9",
+            "kind": "number",
+            "number": 9,
+            "mark": "9",
+            "bulls": 1,
+            "band": "#1e8c4f"
+        },
+        {
+            "name": "карта 10",
+            "kind": "number",
+            "number": 10,
+            "mark": "10",
+            "bulls": 3,
+            "band": "#1f8f4e"
+        },
+        {
+            "name": "карта 11",
+            "kind": "number",
+            "number": 11,
+            "mark": "11",
+            "bulls": 5,
+            "band": "#20914d"
+        },
+        {
+            "name": "карта 12",
+            "kind": "number",
+            "number": 12,
+            "mark": "12",
+            "bulls": 1,
+            "band": "#21934c"
+        },
+        {
+            "name": "карта 13",
+            "kind": "number",
+            "number": 13,
+            "mark": "13",
+            "bulls": 1,
+            "band": "#23964a"
+        },
+        {
+            "name": "карта 14",
+            "kind": "number",
+            "number": 14,
+            "mark": "14",
+            "bulls": 1,
+            "band": "#249849"
+        },
+        {
+            "name": "карта 15",
+            "kind": "number",
+            "number": 15,
+            "mark": "15",
+            "bulls": 2,
+            "band": "#259a48"
+        },
+        {
+            "name": "карта 16",
+            "kind": "number",
+            "number": 16,
+            "mark": "16",
+            "bulls": 1,
+            "band": "#269d47"
+        },
+        {
+            "name": "карта 17",
+            "kind": "number",
+            "number": 17,
+            "mark": "17",
+            "bulls": 1,
+            "band": "#279f46"
+        },
+        {
+            "name": "карта 18",
+            "kind": "number",
+            "number": 18,
+            "mark": "18",
+            "bulls": 1,
+            "band": "#28a145"
+        },
+        {
+            "name": "карта 19",
+            "kind": "number",
+            "number": 19,
+            "mark": "19",
+            "bulls": 1,
+            "band": "#2aa443"
+        },
+        {
+            "name": "карта 20",
+            "kind": "number",
+            "number": 20,
+            "mark": "20",
+            "bulls": 3,
+            "band": "#2ba642"
+        },
+        {
+            "name": "карта 21",
+            "kind": "number",
+            "number": 21,
+            "mark": "21",
+            "bulls": 1,
+            "band": "#2ca841"
+        },
+        {
+            "name": "карта 22",
+            "kind": "number",
+            "number": 22,
+            "mark": "22",
+            "bulls": 5,
+            "band": "#2dab40"
+        },
+        {
+            "name": "карта 23",
+            "kind": "number",
+            "number": 23,
+            "mark": "23",
+            "bulls": 1,
+            "band": "#2ead3f"
+        },
+        {
+            "name": "карта 24",
+            "kind": "number",
+            "number": 24,
+            "mark": "24",
+            "bulls": 1,
+            "band": "#2faf3e"
+        },
+        {
+            "name": "карта 25",
+            "kind": "number",
+            "number": 25,
+            "mark": "25",
+            "bulls": 2,
+            "band": "#31b23c"
+        },
+        {
+            "name": "карта 26",
+            "kind": "number",
+            "number": 26,
+            "mark": "26",
+            "bulls": 1,
+            "band": "#32b43b"
+        },
+        {
+            "name": "карта 27",
+            "kind": "number",
+            "number": 27,
+            "mark": "27",
+            "bulls": 1,
+            "band": "#33b63a"
+        },
+        {
+            "name": "карта 28",
+            "kind": "number",
+            "number": 28,
+            "mark": "28",
+            "bulls": 1,
+            "band": "#34b939"
+        },
+        {
+            "name": "карта 29",
+            "kind": "number",
+            "number": 29,
+            "mark": "29",
+            "bulls": 1,
+            "band": "#35bb38"
+        },
+        {
+            "name": "карта 30",
+            "kind": "number",
+            "number": 30,
+            "mark": "30",
+            "bulls": 3,
+            "band": "#36bd37"
+        },
+        {
+            "name": "карта 31",
+            "kind": "number",
+            "number": 31,
+            "mark": "31",
+            "bulls": 1,
+            "band": "#38c035"
+        },
+        {
+            "name": "карта 32",
+            "kind": "number",
+            "number": 32,
+            "mark": "32",
+            "bulls": 1,
+            "band": "#39c234"
+        },
+        {
+            "name": "карта 33",
+            "kind": "number",
+            "number": 33,
+            "mark": "33",
+            "bulls": 5,
+            "band": "#3ac433"
+        },
+        {
+            "name": "карта 34",
+            "kind": "number",
+            "number": 34,
+            "mark": "34",
+            "bulls": 1,
+            "band": "#3bc732"
+        },
+        {
+            "name": "карта 35",
+            "kind": "number",
+            "number": 35,
+            "mark": "35",
+            "bulls": 2,
+            "band": "#3fc731"
+        },
+        {
+            "name": "карта 36",
+            "kind": "number",
+            "number": 36,
+            "mark": "36",
+            "bulls": 1,
+            "band": "#43c631"
+        },
+        {
+            "name": "карта 37",
+            "kind": "number",
+            "number": 37,
+            "mark": "37",
+            "bulls": 1,
+            "band": "#48c430"
+        },
+        {
+            "name": "карта 38",
+            "kind": "number",
+            "number": 38,
+            "mark": "38",
+            "bulls": 1,
+            "band": "#4dc32f"
+        },
+        {
+            "name": "карта 39",
+            "kind": "number",
+            "number": 39,
+            "mark": "39",
+            "bulls": 1,
+            "band": "#51c22f"
+        },
+        {
+            "name": "карта 40",
+            "kind": "number",
+            "number": 40,
+            "mark": "40",
+            "bulls": 3,
+            "band": "#56c12e"
+        },
+        {
+            "name": "карта 41",
+            "kind": "number",
+            "number": 41,
+            "mark": "41",
+            "bulls": 1,
+            "band": "#5bc02e"
+        },
+        {
+            "name": "карта 42",
+            "kind": "number",
+            "number": 42,
+            "mark": "42",
+            "bulls": 1,
+            "band": "#5fbf2d"
+        },
+        {
+            "name": "карта 43",
+            "kind": "number",
+            "number": 43,
+            "mark": "43",
+            "bulls": 1,
+            "band": "#64bd2c"
+        },
+        {
+            "name": "карта 44",
+            "kind": "number",
+            "number": 44,
+            "mark": "44",
+            "bulls": 5,
+            "band": "#69bc2c"
+        },
+        {
+            "name": "карта 45",
+            "kind": "number",
+            "number": 45,
+            "mark": "45",
+            "bulls": 2,
+            "band": "#6dbb2b"
+        },
+        {
+            "name": "карта 46",
+            "kind": "number",
+            "number": 46,
+            "mark": "46",
+            "bulls": 1,
+            "band": "#72ba2b"
+        },
+        {
+            "name": "карта 47",
+            "kind": "number",
+            "number": 47,
+            "mark": "47",
+            "bulls": 1,
+            "band": "#77b92a"
+        },
+        {
+            "name": "карта 48",
+            "kind": "number",
+            "number": 48,
+            "mark": "48",
+            "bulls": 1,
+            "band": "#7bb82a"
+        },
+        {
+            "name": "карта 49",
+            "kind": "number",
+            "number": 49,
+            "mark": "49",
+            "bulls": 1,
+            "band": "#80b629"
+        },
+        {
+            "name": "карта 50",
+            "kind": "number",
+            "number": 50,
+            "mark": "50",
+            "bulls": 3,
+            "band": "#85b528"
+        },
+        {
+            "name": "карта 51",
+            "kind": "number",
+            "number": 51,
+            "mark": "51",
+            "bulls": 1,
+            "band": "#89b428"
+        },
+        {
+            "name": "карта 52",
+            "kind": "number",
+            "number": 52,
+            "mark": "52",
+            "bulls": 1,
+            "band": "#8eb327"
+        },
+        {
+            "name": "карта 53",
+            "kind": "number",
+            "number": 53,
+            "mark": "53",
+            "bulls": 1,
+            "band": "#93b227"
+        },
+        {
+            "name": "карта 54",
+            "kind": "number",
+            "number": 54,
+            "mark": "54",
+            "bulls": 1,
+            "band": "#97b126"
+        },
+        {
+            "name": "карта 55",
+            "kind": "number",
+            "number": 55,
+            "mark": "55",
+            "bulls": 7,
+            "band": "#9caf25"
+        },
+        {
+            "name": "карта 56",
+            "kind": "number",
+            "number": 56,
+            "mark": "56",
+            "bulls": 1,
+            "band": "#a1ae25"
+        },
+        {
+            "name": "карта 57",
+            "kind": "number",
+            "number": 57,
+            "mark": "57",
+            "bulls": 1,
+            "band": "#a5ad24"
+        },
+        {
+            "name": "карта 58",
+            "kind": "number",
+            "number": 58,
+            "mark": "58",
+            "bulls": 1,
+            "band": "#aaac24"
+        },
+        {
+            "name": "карта 59",
+            "kind": "number",
+            "number": 59,
+            "mark": "59",
+            "bulls": 1,
+            "band": "#afab23"
+        },
+        {
+            "name": "карта 60",
+            "kind": "number",
+            "number": 60,
+            "mark": "60",
+            "bulls": 3,
+            "band": "#b3aa23"
+        },
+        {
+            "name": "карта 61",
+            "kind": "number",
+            "number": 61,
+            "mark": "61",
+            "bulls": 1,
+            "band": "#b8a822"
+        },
+        {
+            "name": "карта 62",
+            "kind": "number",
+            "number": 62,
+            "mark": "62",
+            "bulls": 1,
+            "band": "#bda721"
+        },
+        {
+            "name": "карта 63",
+            "kind": "number",
+            "number": 63,
+            "mark": "63",
+            "bulls": 1,
+            "band": "#c1a621"
+        },
+        {
+            "name": "карта 64",
+            "kind": "number",
+            "number": 64,
+            "mark": "64",
+            "bulls": 1,
+            "band": "#c6a520"
+        },
+        {
+            "name": "карта 65",
+            "kind": "number",
+            "number": 65,
+            "mark": "65",
+            "bulls": 2,
+            "band": "#cba420"
+        },
+        {
+            "name": "карта 66",
+            "kind": "number",
+            "number": 66,
+            "mark": "66",
+            "bulls": 5,
+            "band": "#cfa31f"
+        },
+        {
+            "name": "карта 67",
+            "kind": "number",
+            "number": 67,
+            "mark": "67",
+            "bulls": 1,
+            "band": "#d4a11e"
+        },
+        {
+            "name": "карта 68",
+            "kind": "number",
+            "number": 68,
+            "mark": "68",
+            "bulls": 1,
+            "band": "#d9a01e"
+        },
+        {
+            "name": "карта 69",
+            "kind": "number",
+            "number": 69,
+            "mark": "69",
+            "bulls": 1,
+            "band": "#db9e1e"
+        },
+        {
+            "name": "карта 70",
+            "kind": "number",
+            "number": 70,
+            "mark": "70",
+            "bulls": 3,
+            "band": "#da9b1e"
+        },
+        {
+            "name": "карта 71",
+            "kind": "number",
+            "number": 71,
+            "mark": "71",
+            "bulls": 1,
+            "band": "#d9981f"
+        },
+        {
+            "name": "карта 72",
+            "kind": "number",
+            "number": 72,
+            "mark": "72",
+            "bulls": 1,
+            "band": "#d8951f"
+        },
+        {
+            "name": "карта 73",
+            "kind": "number",
+            "number": 73,
+            "mark": "73",
+            "bulls": 1,
+            "band": "#d79220"
+        },
+        {
+            "name": "карта 74",
+            "kind": "number",
+            "number": 74,
+            "mark": "74",
+            "bulls": 1,
+            "band": "#d58f21"
+        },
+        {
+            "name": "карта 75",
+            "kind": "number",
+            "number": 75,
+            "mark": "75",
+            "bulls": 2,
+            "band": "#d48c21"
+        },
+        {
+            "name": "карта 76",
+            "kind": "number",
+            "number": 76,
+            "mark": "76",
+            "bulls": 1,
+            "band": "#d38922"
+        },
+        {
+            "name": "карта 77",
+            "kind": "number",
+            "number": 77,
+            "mark": "77",
+            "bulls": 5,
+            "band": "#d28522"
+        },
+        {
+            "name": "карта 78",
+            "kind": "number",
+            "number": 78,
+            "mark": "78",
+            "bulls": 1,
+            "band": "#d18223"
+        },
+        {
+            "name": "карта 79",
+            "kind": "number",
+            "number": 79,
+            "mark": "79",
+            "bulls": 1,
+            "band": "#d07f23"
+        },
+        {
+            "name": "карта 80",
+            "kind": "number",
+            "number": 80,
+            "mark": "80",
+            "bulls": 3,
+            "band": "#cf7c24"
+        },
+        {
+            "name": "карта 81",
+            "kind": "number",
+            "number": 81,
+            "mark": "81",
+            "bulls": 1,
+            "band": "#ce7924"
+        },
+        {
+            "name": "карта 82",
+            "kind": "number",
+            "number": 82,
+            "mark": "82",
+            "bulls": 1,
+            "band": "#cc7625"
+        },
+        {
+            "name": "карта 83",
+            "kind": "number",
+            "number": 83,
+            "mark": "83",
+            "bulls": 1,
+            "band": "#cb7326"
+        },
+        {
+            "name": "карта 84",
+            "kind": "number",
+            "number": 84,
+            "mark": "84",
+            "bulls": 1,
+            "band": "#ca7026"
+        },
+        {
+            "name": "карта 85",
+            "kind": "number",
+            "number": 85,
+            "mark": "85",
+            "bulls": 2,
+            "band": "#c96d27"
+        },
+        {
+            "name": "карта 86",
+            "kind": "number",
+            "number": 86,
+            "mark": "86",
+            "bulls": 1,
+            "band": "#c86927"
+        },
+        {
+            "name": "карта 87",
+            "kind": "number",
+            "number": 87,
+            "mark": "87",
+            "bulls": 1,
+            "band": "#c76628"
+        },
+        {
+            "name": "карта 88",
+            "kind": "number",
+            "number": 88,
+            "mark": "88",
+            "bulls": 5,
+            "band": "#c66328"
+        },
+        {
+            "name": "карта 89",
+            "kind": "number",
+            "number": 89,
+            "mark": "89",
+            "bulls": 1,
+            "band": "#c46029"
+        },
+        {
+            "name": "карта 90",
+            "kind": "number",
+            "number": 90,
+            "mark": "90",
+            "bulls": 3,
+            "band": "#c35d2a"
+        },
+        {
+            "name": "карта 91",
+            "kind": "number",
+            "number": 91,
+            "mark": "91",
+            "bulls": 1,
+            "band": "#c25a2a"
+        },
+        {
+            "name": "карта 92",
+            "kind": "number",
+            "number": 92,
+            "mark": "92",
+            "bulls": 1,
+            "band": "#c1572b"
+        },
+        {
+            "name": "карта 93",
+            "kind": "number",
+            "number": 93,
+            "mark": "93",
+            "bulls": 1,
+            "band": "#c0542b"
+        },
+        {
+            "name": "карта 94",
+            "kind": "number",
+            "number": 94,
+            "mark": "94",
+            "bulls": 1,
+            "band": "#bf512c"
+        },
+        {
+            "name": "карта 95",
+            "kind": "number",
+            "number": 95,
+            "mark": "95",
+            "bulls": 2,
+            "band": "#be4d2c"
+        },
+        {
+            "name": "карта 96",
+            "kind": "number",
+            "number": 96,
+            "mark": "96",
+            "bulls": 1,
+            "band": "#bd4a2d"
+        },
+        {
+            "name": "карта 97",
+            "kind": "number",
+            "number": 97,
+            "mark": "97",
+            "bulls": 1,
+            "band": "#bb472e"
+        },
+        {
+            "name": "карта 98",
+            "kind": "number",
+            "number": 98,
+            "mark": "98",
+            "bulls": 1,
+            "band": "#ba442e"
+        },
+        {
+            "name": "карта 99",
+            "kind": "number",
+            "number": 99,
+            "mark": "99",
+            "bulls": 5,
+            "band": "#b9412f"
+        },
+        {
+            "name": "карта 100",
+            "kind": "number",
+            "number": 100,
+            "mark": "100",
+            "bulls": 3,
+            "band": "#b83e2f"
+        },
+        {
+            "name": "карта 101",
+            "kind": "number",
+            "number": 101,
+            "mark": "101",
+            "bulls": 1,
+            "band": "#b73b30"
+        },
+        {
+            "name": "карта 102",
+            "kind": "number",
+            "number": 102,
+            "mark": "102",
+            "bulls": 1,
+            "band": "#b63830"
+        },
+        {
+            "name": "карта 103",
+            "kind": "number",
+            "number": 103,
+            "mark": "103",
+            "bulls": 1,
+            "band": "#b53531"
+        },
+        {
+            "name": "карта 104",
+            "kind": "number",
+            "number": 104,
+            "mark": "104",
+            "bulls": 1,
+            "band": "#b43232"
+        }
+    ]
+}

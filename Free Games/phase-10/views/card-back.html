@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }} — рубашка</title>
+  <style>
+    {% include 'card-back.scss' %}
+  </style>
+</head>
+<body>
+  <article class="card-back" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm;">
+    <ol class="phases" aria-hidden="true">
+      <li></li><li></li><li></li><li></li><li></li>
+      <li></li><li></li><li></li><li></li><li class="last"></li>
+    </ol>
+    <div class="core">
+      <div class="k">{{ deck.subtitle }}</div>
+      <div class="t">{{ deck.title }}</div>
+      <div class="n">{{ deck.card_count }}</div>
+    </div>
+  </article>
+</body>
+</html>

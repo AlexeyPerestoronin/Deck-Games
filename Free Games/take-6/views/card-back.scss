@@ -1,0 +1,71 @@
+@page {
+  size: {{ card_width_mm }}mm {{ card_height_mm }}mm;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: {{ card_width_mm }}mm;
+  height: {{ card_height_mm }}mm;
+  background: #fff;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 3mm;
+  background: #5a7a32;
+  color: #f4efe4;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  border: 0.6mm solid #2b2118;
+
+  .field {
+    position: absolute;
+    inset: 3mm;
+    border: 0.45mm dashed rgba(244, 239, 228, 0.45);
+    background:
+      repeating-linear-gradient(90deg, transparent 0 8mm, rgba(0, 0, 0, 0.06) 8mm 8.4mm),
+      repeating-linear-gradient(0deg, transparent 0 11mm, rgba(255, 255, 255, 0.05) 11mm 11.4mm);
+  }
+
+  .stamp {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 42mm;
+    text-align: center;
+  }
+
+  .bull {
+    width: 14mm;
+    height: 11mm;
+    margin: 0 auto 3mm;
+    background: #f4efe4;
+    border-radius: 50% 50% 46% 46%;
+    position: relative;
+  }
+  .bull::before,
+  .bull::after {
+    content: "";
+    position: absolute;
+    width: 4mm;
+    height: 7mm;
+    background: #f4efe4;
+    border-radius: 80% 0 40% 40%;
+    top: -4mm;
+  }
+  .bull::before { left: -1mm; transform: rotate(-30deg); }
+  .bull::after { right: -1mm; transform: scaleX(-1) rotate(-30deg); }
+
+  .num {
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+  .title { font-size: 11pt; margin-top: 1mm; }
+  .sub { font-size: 7pt; opacity: 0.85; margin-top: 1mm; }
+}

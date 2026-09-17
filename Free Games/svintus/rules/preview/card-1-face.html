@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Свинтус</title>
+  <style>
+@page {
+  size: 56mm 89mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 56mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: var(--c, #c1121f);
+  color: #fff8f0;
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive, sans-serif;
+  border-radius: 3.2mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .frame {
+  position: absolute;
+  inset: 2mm;
+  border: 0.55mm dashed rgba(255, 248, 240, 0.7);
+  border-radius: 2.4mm;
+  pointer-events: none;
+}
+.card .pig {
+  position: absolute;
+  left: 50%;
+  top: 14mm;
+  width: 22mm;
+  height: 16mm;
+  transform: translateX(-50%);
+}
+.card .head {
+  position: absolute;
+  left: 3mm;
+  top: 3mm;
+  width: 16mm;
+  height: 13mm;
+  background: #ffc2d4;
+  border-radius: 50%;
+  border: 0.35mm solid #5c2a3a;
+}
+.card .ear {
+  position: absolute;
+  top: 0;
+  width: 6mm;
+  height: 6mm;
+  background: #ff8fab;
+  border: 0.35mm solid #5c2a3a;
+  border-radius: 60% 60% 20% 20%;
+}
+.card .ear.l {
+  left: 2mm;
+  transform: rotate(-18deg);
+}
+.card .ear.r {
+  right: 2mm;
+  transform: rotate(18deg);
+}
+.card .snout {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 9mm;
+  height: 6mm;
+  margin-left: -4.5mm;
+  background: #ffb3c6;
+  border: 0.35mm solid #5c2a3a;
+  border-radius: 40%;
+}
+.card .snout::before,
+.card .snout::after {
+  content: "";
+  position: absolute;
+  top: 1.6mm;
+  width: 1.5mm;
+  height: 2.2mm;
+  background: #5c2a3a;
+  border-radius: 50%;
+}
+.card .snout::before {
+  left: 2mm;
+}
+.card .snout::after {
+  right: 2mm;
+}
+.card .num {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 34mm;
+  text-align: center;
+  font-size: 28pt;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 0.4mm 0 rgba(0, 0, 0, 0.25);
+}
+.card .title {
+  position: absolute;
+  left: 3mm;
+  right: 3mm;
+  bottom: 14mm;
+  text-align: center;
+  font-size: 11pt;
+  font-weight: 700;
+}
+.card .act {
+  position: absolute;
+  left: 4mm;
+  right: 4mm;
+  bottom: 4mm;
+  text-align: center;
+  font-size: 6.5pt;
+  line-height: 1.25;
+  min-height: 8mm;
+}
+
+.kind-number .pig {
+  opacity: 0.85;
+  transform: translateX(-50%) scale(0.72);
+  top: 8mm;
+}
+.kind-number .title {
+  display: none;
+}
+.kind-number .act {
+  display: none;
+}
+.kind-number .num {
+  top: 38mm;
+  font-size: 34pt;
+}
+
+.card:not(.kind-number) .num {
+  display: none;
+}
+.card:not(.kind-number) .pig {
+  top: 10mm;
+}
+
+.color-yellow {
+  color: #3b1d0f;
+}
+.color-yellow .num {
+  text-shadow: none;
+}  </style>
+</head>
+<body>
+  <article class="card kind-number color-red" style="width: 56.0mm; height: 89.0mm; --c: #c1121f;">
+    <div class="frame"></div>
+    <div class="pig" aria-hidden="true">
+      <span class="ear l"></span>
+      <span class="ear r"></span>
+      <span class="head"></span>
+      <span class="snout"></span>
+    </div>
+    <div class="num">7</div>
+    <div class="title">7</div>
+    <div class="act"></div>
+  </article>
+</body>
+</html>

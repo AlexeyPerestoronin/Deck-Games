@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Корова 006</title>
+  <style>
+@page {
+  size: 62mm 84mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 62mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #f4efe4;
+  color: #1b1712;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  border: 0.6mm solid #2b2118;
+  border-radius: 3mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 7mm;
+  background: var(--band, #6b8f3c);
+}
+.card .band.top {
+  top: 0;
+}
+.card .band.bot {
+  bottom: 0;
+}
+.card .number {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-54%);
+  text-align: center;
+  font-size: 38pt;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+.card .heads {
+  position: absolute;
+  left: 4mm;
+  right: 4mm;
+  display: flex;
+  justify-content: center;
+  gap: 1.2mm;
+  z-index: 2;
+}
+.card .heads.top-heads {
+  top: 8.5mm;
+}
+.card .heads.bot-heads {
+  bottom: 8.5mm;
+  transform: rotate(180deg);
+}
+.card .heads i {
+  display: none;
+  width: 5.2mm;
+  height: 4.4mm;
+  position: relative;
+  background: #3a2a1a;
+  border-radius: 50% 50% 45% 45%;
+}
+.card .heads i::before,
+.card .heads i::after {
+  content: "";
+  position: absolute;
+  width: 1.6mm;
+  height: 2.4mm;
+  background: #3a2a1a;
+  border-radius: 80% 0 40% 40%;
+  top: -1.4mm;
+}
+.card .heads i::before {
+  left: -0.2mm;
+  transform: rotate(-28deg);
+}
+.card .heads i::after {
+  right: -0.2mm;
+  transform: scaleX(-1) rotate(-28deg);
+}
+.card .score {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.4mm;
+  text-align: center;
+  font-size: 6pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #f4efe4;
+  z-index: 3;
+}
+
+.bulls-1 .heads i:nth-child(-n+1),
+.bulls-2 .heads i:nth-child(-n+2),
+.bulls-3 .heads i:nth-child(-n+3),
+.bulls-5 .heads i:nth-child(-n+5),
+.bulls-7 .heads i:nth-child(-n+7) {
+  display: block;
+}  </style>
+</head>
+<body>
+  <article class="card bulls-7" style="width: 62.0mm; height: 84.0mm; --band: #9caf25;">
+    <div class="band top"></div>
+    <div class="band bot"></div>
+    <div class="heads top-heads" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <div class="number">55</div>
+    <div class="heads bot-heads" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <div class="score">штраф 7</div>
+  </article>
+</body>
+</html>

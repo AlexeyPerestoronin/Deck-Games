@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Корова 006 — превью</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #e7dfcc; color: #241c14; font-family: Georgia, "Times New Roman", serif; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 28px 20px 48px; }
+    h1 { font-size: 34px; margin: 0 0 8px; }
+    .sub { margin: 0 0 24px; color: #5a4a36; }
+    .board {
+      display: grid;
+      gap: 14px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 42px repeat(6, 62mm);
+      gap: 8px;
+      align-items: center;
+      overflow-x: auto;
+      background: #cfc3a6;
+      padding: 10px;
+      border: 1px solid #8a7354;
+    }
+    .row-id {
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+    .slot {
+      width: 62mm;
+    }
+    iframe {
+      width: 62mm;
+      height: 84mm;
+      border: 0;
+      display: block;
+      background: #fff;
+    }
+    .ghost {
+      width: 62mm;
+      height: 84mm;
+      border: 1px dashed #8a7354;
+      background: repeating-linear-gradient(45deg, transparent 0 8px, rgba(0,0,0,0.04) 8px 9px);
+    }
+    .danger {
+      outline: 3px solid #9a031e;
+      outline-offset: 3px;
+    }
+    .note {
+      margin-top: 18px;
+      font-size: 15px;
+      line-height: 1.5;
+      max-width: 46em;
+    }
+    .stamp { float: right; width: 62mm; margin: 0 0 12px 16px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="stamp">
+      <iframe src="card-1-back.html" title="рубашка"></iframe>
+    </div>
+    <h1>Корова 006</h1>
+    <p class="sub">Четыре ряда на столе. Шестая карта забирает ряд — штраф в бычках.</p>
+    <div class="board">
+      <div class="row">
+        <div class="row-id">I</div>
+        <div class="slot"><iframe src="card-1-face.html" title="1 · 1 бык"></iframe></div>
+        <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+      </div>
+      <div class="row">
+        <div class="row-id">II</div>
+        <div class="slot"><iframe src="card-2-face.html" title="11 · 5 быков"></iframe></div>
+        <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+        <div class="slot danger"><iframe src="card-3-face.html" title="55 · 7 быков"></iframe></div>
+      </div>
+      <div class="row">
+        <div class="row-id">III</div>
+        <div class="slot"><iframe src="card-4-face.html" title="104"></iframe></div>
+        <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+      </div>
+      <div class="row">
+        <div class="row-id">IV</div>
+        <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+      </div>
+    </div>
+    <p class="note">Карты кладут одновременно, затем раскладывают по возрастанию к ближайшему меньшему концу ряда. 55 — семь голов, это почти всегда плохой ряд, который кто-то заберёт шестым ходом.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Уно — превью</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      background:
+        conic-gradient(from 45deg, #e0192c 0 90deg, #f5d000 90deg 180deg, #1f9a3f 180deg 270deg, #1d6fd1 270deg 360deg);
+    }
+    .veil {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 30%, transparent 0 18%, rgba(0,0,0,0.55) 55%);
+      padding: 28px 20px 48px;
+    }
+    .table {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .callout {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      font-weight: 900;
+      letter-spacing: 0.18em;
+      font-size: 42px;
+      padding: 8px 22px;
+      transform: rotate(-6deg);
+      border: 4px solid #fff;
+      margin-bottom: 18px;
+    }
+    .lead {
+      max-width: 36em;
+      font-size: 18px;
+      line-height: 1.4;
+      text-shadow: 0 1px 0 #111;
+    }
+    .pile {
+      position: relative;
+      height: 420px;
+      margin: 28px 0 12px;
+    }
+    .tile {
+      position: absolute;
+      width: 58mm;
+      text-align: center;
+    }
+    iframe {
+      width: 58mm;
+      height: 88mm;
+      border: 0;
+      display: block;
+      box-shadow: 0 16px 28px rgba(0,0,0,0.4);
+    }
+    .cap { margin-top: 8px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+    .t1 { left: 6%; top: 40px; transform: rotate(-18deg); z-index: 1; }
+    .t2 { left: 28%; top: 10px; transform: rotate(-6deg); z-index: 2; }
+    .t3 { left: 50%; top: 24px; transform: rotate(8deg); z-index: 3; }
+    .t4 { left: 70%; top: 8px; transform: rotate(16deg); z-index: 4; }
+    .hint {
+      background: #111;
+      padding: 16px 20px;
+      max-width: 42em;
+    }
+    @media (max-width: 800px) {
+      .pile { height: auto; display: flex; flex-wrap: wrap; gap: 16px; }
+      .tile { position: static; transform: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="veil">
+    <div class="table">
+      <div class="callout">УНО!</div>
+      <p class="lead">Стол как сброс в разгаре партии: цвет на цвет, цифра на цифру, и кто-то уже тянет «+2». Колода 108 карт, оформление — четыре пятна и схематичные знаки.</p>
+      <div class="pile">
+        <div class="tile t1">
+          <iframe src="card-1-face.html" title="красная 7"></iframe>
+          <div class="cap">цвет · 7</div>
+        </div>
+        <div class="tile t2">
+          <iframe src="card-2-face.html" title="жёлтый +2"></iframe>
+          <div class="cap">+2 следующему</div>
+        </div>
+        <div class="tile t3">
+          <iframe src="card-3-face.html" title="синий пропуск"></iframe>
+          <div class="cap">пропуск</div>
+        </div>
+        <div class="tile t4">
+          <iframe src="card-4-face.html" title="дикая +4"></iframe>
+          <div class="cap">цвет и +4</div>
+        </div>
+      </div>
+      <div class="hint">Перед последней картой крикни «Уно». Рубашка — те же четыре квадранта: card-1-back.html … card-4-back.html лежат рядом.</div>
+    </div>
+  </div>
+</body>
+</html>

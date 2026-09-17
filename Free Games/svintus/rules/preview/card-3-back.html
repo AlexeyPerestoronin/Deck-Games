@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Свинтус — рубашка</title>
+  <style>
+@page {
+  size: 56mm 89mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 56mm;
+  height: 89mm;
+  background: #fff;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 3.2mm;
+  background: #6d2c3a;
+  color: #fff8f0;
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive, sans-serif;
+  border: 0.6mm solid #3b1520;
+}
+.card-back .mud {
+  position: absolute;
+  inset: 3mm;
+  border-radius: 2mm;
+  background: radial-gradient(circle at 20% 30%, rgba(255, 194, 212, 0.25) 0 6mm, transparent 7mm), radial-gradient(circle at 80% 70%, rgba(255, 194, 212, 0.2) 0 7mm, transparent 8mm), repeating-linear-gradient(135deg, transparent 0 4mm, rgba(0, 0, 0, 0.08) 4mm 4.5mm);
+}
+.card-back .badge {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  width: 40mm;
+  padding: 5mm 3mm 4mm;
+  background: #ff8fab;
+  color: #3b1520;
+  border: 0.55mm solid #3b1520;
+  text-align: center;
+  box-shadow: 1.5mm 1.5mm 0 #3b1520;
+}
+.card-back .snout {
+  width: 10mm;
+  height: 7mm;
+  margin: 0 auto 2mm;
+  background: #ffc2d4;
+  border: 0.35mm solid #3b1520;
+  border-radius: 40%;
+  position: relative;
+}
+.card-back .snout::before,
+.card-back .snout::after {
+  content: "";
+  position: absolute;
+  top: 1.8mm;
+  width: 1.6mm;
+  height: 2.4mm;
+  background: #3b1520;
+  border-radius: 50%;
+}
+.card-back .snout::before {
+  left: 2.2mm;
+}
+.card-back .snout::after {
+  right: 2.2mm;
+}
+.card-back .t {
+  font-size: 14pt;
+  font-weight: 800;
+}
+.card-back .s {
+  font-size: 8pt;
+  margin-top: 1mm;
+}
+.card-back .n {
+  font-size: 7pt;
+  margin-top: 2mm;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}  </style>
+</head>
+<body>
+  <article class="card-back" style="width: 56.0mm; height: 89.0mm;">
+    <div class="mud"></div>
+    <div class="badge">
+      <div class="snout" aria-hidden="true"></div>
+      <div class="t">Свинтус</div>
+      <div class="s">подложи свинью</div>
+      <div class="n">112 карт</div>
+    </div>
+  </article>
+</body>
+</html>

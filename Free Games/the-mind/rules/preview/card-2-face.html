@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>The Mind</title>
+  <style>
+@page {
+  size: 60mm 91mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 60mm;
+  background: #000;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #0b0d12;
+  color: #e8e6df;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border: 0.5mm solid #2a2e38;
+  border-radius: 2mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.25mm solid rgba(232, 230, 223, 0.12);
+  border-radius: 50%;
+}
+.card .r1 {
+  width: 38mm;
+  height: 38mm;
+}
+.card .r2 {
+  width: 26mm;
+  height: 26mm;
+}
+.card .num {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36pt;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+}  </style>
+</head>
+<body>
+  <article class="card" style="width: 60.0mm; height: 91.0mm;">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="num">34</div>
+  </article>
+</body>
+</html>

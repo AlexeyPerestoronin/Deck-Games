@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Phase 10 — рубашка</title>
+  <style>
+@page {
+  size: 54mm 86mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 54mm;
+  height: 86mm;
+  background: #fff;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 2.6mm;
+  background: #22223b;
+  color: #f7f4ee;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  border: 0.55mm solid #111;
+}
+.card-back .phases {
+  position: absolute;
+  inset: 4mm;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6mm;
+  counter-reset: ph;
+}
+.card-back .phases li {
+  border: 0.3mm solid rgba(247, 244, 238, 0.25);
+  counter-increment: ph;
+  position: relative;
+}
+.card-back .phases li::after {
+  content: counter(ph);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8pt;
+  opacity: 0.45;
+}
+.card-back .phases li.last {
+  background: #9a031e;
+  border-color: #9a031e;
+}
+.card-back .phases li.last::after {
+  opacity: 1;
+  font-weight: 800;
+}
+.card-back .core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 32mm;
+  padding: 3mm 2mm;
+  background: #22223b;
+  border: 0.45mm solid #f7f4ee;
+  text-align: center;
+}
+.card-back .k {
+  font-size: 6pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+.card-back .t {
+  font-size: 12pt;
+  font-weight: 800;
+  margin: 1mm 0;
+}
+.card-back .n {
+  font-size: 6.5pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}  </style>
+</head>
+<body>
+  <article class="card-back" style="width: 54.0mm; height: 86.0mm;">
+    <ol class="phases" aria-hidden="true">
+      <li></li><li></li><li></li><li></li><li></li>
+      <li></li><li></li><li></li><li></li><li class="last"></li>
+    </ol>
+    <div class="core">
+      <div class="k">десять фаз</div>
+      <div class="t">Phase 10</div>
+      <div class="n">108 карт</div>
+    </div>
+  </article>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@page {
+  size: {{ card_width_mm }}mm {{ card_height_mm }}mm;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: {{ card_width_mm }}mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #f7f4ee;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  border: 0.55mm solid #22223b;
+  border-radius: 2.6mm;
+  page-break-after: always;
+  break-after: page;
+
+  &:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .stripe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 11mm;
+    background: var(--c, #277da1);
+
+    &.top { top: 0; }
+    &.bot { bottom: 0; }
+  }
+
+  .index {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-weight: 800;
+    font-size: 11pt;
+    line-height: 1;
+    width: 10mm;
+    text-align: center;
+
+    &.tl { top: 2.4mm; left: 1.5mm; }
+    &.br { right: 1.5mm; bottom: 2.4mm; transform: rotate(180deg); }
+  }
+
+  .panel {
+    position: absolute;
+    left: 6mm;
+    right: 6mm;
+    top: 16mm;
+    bottom: 16mm;
+    border: 0.4mm solid #22223b;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big {
+    font-size: 28pt;
+    font-weight: 800;
+    color: var(--c, #277da1);
+    line-height: 1;
+  }
+
+  .lab {
+    margin-top: 2mm;
+    font-size: 7pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #4a4e69;
+  }
+}
+
+.kind-wild .panel,
+.kind-skip .panel {
+  background: #22223b;
+}
+.kind-wild .big,
+.kind-skip .big,
+.kind-wild .lab,
+.kind-skip .lab {
+  color: #f7f4ee;
+}
+
+.kind-wild .big { font-size: 22pt; letter-spacing: 0.08em; }
+.kind-skip .big { font-size: 20pt; }

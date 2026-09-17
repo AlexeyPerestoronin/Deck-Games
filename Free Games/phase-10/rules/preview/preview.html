@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phase 10 — превью</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #f4efe6; color: #22223b; font-family: "Trebuchet MS", "Segoe UI", sans-serif; }
+    .wrap { display: grid; grid-template-columns: 280px 1fr; min-height: 100vh; }
+    aside {
+      background: #22223b;
+      color: #f4efe6;
+      padding: 28px 22px;
+    }
+    aside h1 { margin: 0 0 6px; font-size: 28px; }
+    aside p { opacity: 0.75; margin: 0 0 18px; }
+    ol { margin: 0; padding: 0; list-style: none; }
+    ol li {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(244,239,230,0.12);
+      font-size: 13px;
+    }
+    ol li b { width: 1.6em; color: #e9c46a; }
+    ol li.done { color: #9ef0b2; }
+    main { padding: 32px 28px 48px; }
+    h2 { margin: 0 0 8px; letter-spacing: 0.08em; text-transform: uppercase; font-size: 13px; color: #9a031e; }
+    .combo {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      margin: 16px 0 28px;
+    }
+    .card { width: 54mm; text-align: center; }
+    iframe { width: 54mm; height: 86mm; border: 0; display: block; box-shadow: 0 10px 24px rgba(34,34,59,0.18); }
+    .tag { margin-top: 8px; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+    .set { outline: 2px solid #277da1; outline-offset: 6px; }
+    .wild { outline: 2px dashed #9a031e; outline-offset: 6px; }
+    .blurb { max-width: 40em; line-height: 1.5; color: #4a4e69; }
+    @media (max-width: 900px) { .wrap { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <aside>
+      <h1>Phase 10</h1>
+      <p>десять комбинаций подряд</p>
+      <ol>
+        <li class="done"><b>1</b> два сета по 3</li>
+        <li><b>2</b> сет 3 + улица 4</li>
+        <li><b>3</b> сет 4 + улица 4</li>
+        <li><b>4</b> улица 7</li>
+        <li><b>5</b> улица 8</li>
+        <li><b>6</b> улица 9</li>
+        <li><b>7</b> два сета по 4</li>
+        <li><b>8</b> 7 карт одного цвета</li>
+        <li><b>9</b> сет 5 + сет 2</li>
+        <li><b>10</b> сет 5 + сет 3</li>
+      </ol>
+    </aside>
+    <main>
+      <h2>Фаза 1 на столе</h2>
+      <div class="combo">
+        <div class="card set">
+          <iframe src="card-1-face.html" title="12"></iframe>
+          <div class="tag">число 12</div>
+        </div>
+        <div class="card set">
+          <iframe src="card-2-face.html" title="7"></iframe>
+          <div class="tag">число 7</div>
+        </div>
+        <div class="card wild">
+          <iframe src="card-3-face.html" title="джокер"></iframe>
+          <div class="tag">джокер в сет</div>
+        </div>
+        <div class="card">
+          <iframe src="card-4-face.html" title="пропуск"></iframe>
+          <div class="tag">пропуск хода</div>
+        </div>
+      </div>
+      <p class="blurb">Слева — трекер фаз, как лист прогресса игрока. Справа выложена черновая фаза: числа плюс джокер закрывают сет, а «пропуск» уходит сопернику, а не в комбинацию.</p>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Phase 10</title>
+  <style>
+@page {
+  size: 54mm 86mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 54mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #f7f4ee;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  border: 0.55mm solid #22223b;
+  border-radius: 2.6mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .stripe {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 11mm;
+  background: var(--c, #277da1);
+}
+.card .stripe.top {
+  top: 0;
+}
+.card .stripe.bot {
+  bottom: 0;
+}
+.card .index {
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  font-weight: 800;
+  font-size: 11pt;
+  line-height: 1;
+  width: 10mm;
+  text-align: center;
+}
+.card .index.tl {
+  top: 2.4mm;
+  left: 1.5mm;
+}
+.card .index.br {
+  right: 1.5mm;
+  bottom: 2.4mm;
+  transform: rotate(180deg);
+}
+.card .panel {
+  position: absolute;
+  left: 6mm;
+  right: 6mm;
+  top: 16mm;
+  bottom: 16mm;
+  border: 0.4mm solid #22223b;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .big {
+  font-size: 28pt;
+  font-weight: 800;
+  color: var(--c, #277da1);
+  line-height: 1;
+}
+.card .lab {
+  margin-top: 2mm;
+  font-size: 7pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #4a4e69;
+}
+
+.kind-wild .panel,
+.kind-skip .panel {
+  background: #22223b;
+}
+
+.kind-wild .big,
+.kind-skip .big,
+.kind-wild .lab,
+.kind-skip .lab {
+  color: #f7f4ee;
+}
+
+.kind-wild .big {
+  font-size: 22pt;
+  letter-spacing: 0.08em;
+}
+
+.kind-skip .big {
+  font-size: 20pt;
+}  </style>
+</head>
+<body>
+  <article class="card kind-number color-green" style="width: 54.0mm; height: 86.0mm; --c: #2a9d8f;">
+    <div class="stripe top"></div>
+    <div class="stripe bot"></div>
+    <div class="index tl">7</div>
+    <div class="index br">7</div>
+    <div class="panel">
+      <div class="big">7</div>
+      <div class="lab">7</div>
+    </div>
+  </article>
+</body>
+</html>

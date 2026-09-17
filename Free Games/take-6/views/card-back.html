@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }} — рубашка</title>
+  <style>
+    {% include 'card-back.scss' %}
+  </style>
+</head>
+<body>
+  <article class="card-back" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm;">
+    <div class="field"></div>
+    <div class="stamp">
+      <div class="bull" aria-hidden="true"></div>
+      <div class="num">006</div>
+      <div class="title">{{ deck.title }}</div>
+      <div class="sub">{{ deck.subtitle }}</div>
+    </div>
+  </article>
+</body>
+</html>

@@ -1,0 +1,618 @@
+{
+    "name": "the-mind.cards",
+    "view": {
+        "face": "card-face.html",
+        "back": "card-back.html"
+    },
+    "deck": {
+        "game_name": "${game:name}",
+        "title": "The Mind",
+        "subtitle": "без слов",
+        "category": "Кооператив на чувство времени",
+        "card_count": "100 карт",
+        "card_width_mm": ${card:width_mm},
+        "card_height_mm": ${card:height_mm}
+    },
+    "cards": [
+        {
+            "name": "1",
+            "kind": "number",
+            "number": 1,
+            "mark": "1"
+        },
+        {
+            "name": "2",
+            "kind": "number",
+            "number": 2,
+            "mark": "2"
+        },
+        {
+            "name": "3",
+            "kind": "number",
+            "number": 3,
+            "mark": "3"
+        },
+        {
+            "name": "4",
+            "kind": "number",
+            "number": 4,
+            "mark": "4"
+        },
+        {
+            "name": "5",
+            "kind": "number",
+            "number": 5,
+            "mark": "5"
+        },
+        {
+            "name": "6",
+            "kind": "number",
+            "number": 6,
+            "mark": "6"
+        },
+        {
+            "name": "7",
+            "kind": "number",
+            "number": 7,
+            "mark": "7"
+        },
+        {
+            "name": "8",
+            "kind": "number",
+            "number": 8,
+            "mark": "8"
+        },
+        {
+            "name": "9",
+            "kind": "number",
+            "number": 9,
+            "mark": "9"
+        },
+        {
+            "name": "10",
+            "kind": "number",
+            "number": 10,
+            "mark": "10"
+        },
+        {
+            "name": "11",
+            "kind": "number",
+            "number": 11,
+            "mark": "11"
+        },
+        {
+            "name": "12",
+            "kind": "number",
+            "number": 12,
+            "mark": "12"
+        },
+        {
+            "name": "13",
+            "kind": "number",
+            "number": 13,
+            "mark": "13"
+        },
+        {
+            "name": "14",
+            "kind": "number",
+            "number": 14,
+            "mark": "14"
+        },
+        {
+            "name": "15",
+            "kind": "number",
+            "number": 15,
+            "mark": "15"
+        },
+        {
+            "name": "16",
+            "kind": "number",
+            "number": 16,
+            "mark": "16"
+        },
+        {
+            "name": "17",
+            "kind": "number",
+            "number": 17,
+            "mark": "17"
+        },
+        {
+            "name": "18",
+            "kind": "number",
+            "number": 18,
+            "mark": "18"
+        },
+        {
+            "name": "19",
+            "kind": "number",
+            "number": 19,
+            "mark": "19"
+        },
+        {
+            "name": "20",
+            "kind": "number",
+            "number": 20,
+            "mark": "20"
+        },
+        {
+            "name": "21",
+            "kind": "number",
+            "number": 21,
+            "mark": "21"
+        },
+        {
+            "name": "22",
+            "kind": "number",
+            "number": 22,
+            "mark": "22"
+        },
+        {
+            "name": "23",
+            "kind": "number",
+            "number": 23,
+            "mark": "23"
+        },
+        {
+            "name": "24",
+            "kind": "number",
+            "number": 24,
+            "mark": "24"
+        },
+        {
+            "name": "25",
+            "kind": "number",
+            "number": 25,
+            "mark": "25"
+        },
+        {
+            "name": "26",
+            "kind": "number",
+            "number": 26,
+            "mark": "26"
+        },
+        {
+            "name": "27",
+            "kind": "number",
+            "number": 27,
+            "mark": "27"
+        },
+        {
+            "name": "28",
+            "kind": "number",
+            "number": 28,
+            "mark": "28"
+        },
+        {
+            "name": "29",
+            "kind": "number",
+            "number": 29,
+            "mark": "29"
+        },
+        {
+            "name": "30",
+            "kind": "number",
+            "number": 30,
+            "mark": "30"
+        },
+        {
+            "name": "31",
+            "kind": "number",
+            "number": 31,
+            "mark": "31"
+        },
+        {
+            "name": "32",
+            "kind": "number",
+            "number": 32,
+            "mark": "32"
+        },
+        {
+            "name": "33",
+            "kind": "number",
+            "number": 33,
+            "mark": "33"
+        },
+        {
+            "name": "34",
+            "kind": "number",
+            "number": 34,
+            "mark": "34"
+        },
+        {
+            "name": "35",
+            "kind": "number",
+            "number": 35,
+            "mark": "35"
+        },
+        {
+            "name": "36",
+            "kind": "number",
+            "number": 36,
+            "mark": "36"
+        },
+        {
+            "name": "37",
+            "kind": "number",
+            "number": 37,
+            "mark": "37"
+        },
+        {
+            "name": "38",
+            "kind": "number",
+            "number": 38,
+            "mark": "38"
+        },
+        {
+            "name": "39",
+            "kind": "number",
+            "number": 39,
+            "mark": "39"
+        },
+        {
+            "name": "40",
+            "kind": "number",
+            "number": 40,
+            "mark": "40"
+        },
+        {
+            "name": "41",
+            "kind": "number",
+            "number": 41,
+            "mark": "41"
+        },
+        {
+            "name": "42",
+            "kind": "number",
+            "number": 42,
+            "mark": "42"
+        },
+        {
+            "name": "43",
+            "kind": "number",
+            "number": 43,
+            "mark": "43"
+        },
+        {
+            "name": "44",
+            "kind": "number",
+            "number": 44,
+            "mark": "44"
+        },
+        {
+            "name": "45",
+            "kind": "number",
+            "number": 45,
+            "mark": "45"
+        },
+        {
+            "name": "46",
+            "kind": "number",
+            "number": 46,
+            "mark": "46"
+        },
+        {
+            "name": "47",
+            "kind": "number",
+            "number": 47,
+            "mark": "47"
+        },
+        {
+            "name": "48",
+            "kind": "number",
+            "number": 48,
+            "mark": "48"
+        },
+        {
+            "name": "49",
+            "kind": "number",
+            "number": 49,
+            "mark": "49"
+        },
+        {
+            "name": "50",
+            "kind": "number",
+            "number": 50,
+            "mark": "50"
+        },
+        {
+            "name": "51",
+            "kind": "number",
+            "number": 51,
+            "mark": "51"
+        },
+        {
+            "name": "52",
+            "kind": "number",
+            "number": 52,
+            "mark": "52"
+        },
+        {
+            "name": "53",
+            "kind": "number",
+            "number": 53,
+            "mark": "53"
+        },
+        {
+            "name": "54",
+            "kind": "number",
+            "number": 54,
+            "mark": "54"
+        },
+        {
+            "name": "55",
+            "kind": "number",
+            "number": 55,
+            "mark": "55"
+        },
+        {
+            "name": "56",
+            "kind": "number",
+            "number": 56,
+            "mark": "56"
+        },
+        {
+            "name": "57",
+            "kind": "number",
+            "number": 57,
+            "mark": "57"
+        },
+        {
+            "name": "58",
+            "kind": "number",
+            "number": 58,
+            "mark": "58"
+        },
+        {
+            "name": "59",
+            "kind": "number",
+            "number": 59,
+            "mark": "59"
+        },
+        {
+            "name": "60",
+            "kind": "number",
+            "number": 60,
+            "mark": "60"
+        },
+        {
+            "name": "61",
+            "kind": "number",
+            "number": 61,
+            "mark": "61"
+        },
+        {
+            "name": "62",
+            "kind": "number",
+            "number": 62,
+            "mark": "62"
+        },
+        {
+            "name": "63",
+            "kind": "number",
+            "number": 63,
+            "mark": "63"
+        },
+        {
+            "name": "64",
+            "kind": "number",
+            "number": 64,
+            "mark": "64"
+        },
+        {
+            "name": "65",
+            "kind": "number",
+            "number": 65,
+            "mark": "65"
+        },
+        {
+            "name": "66",
+            "kind": "number",
+            "number": 66,
+            "mark": "66"
+        },
+        {
+            "name": "67",
+            "kind": "number",
+            "number": 67,
+            "mark": "67"
+        },
+        {
+            "name": "68",
+            "kind": "number",
+            "number": 68,
+            "mark": "68"
+        },
+        {
+            "name": "69",
+            "kind": "number",
+            "number": 69,
+            "mark": "69"
+        },
+        {
+            "name": "70",
+            "kind": "number",
+            "number": 70,
+            "mark": "70"
+        },
+        {
+            "name": "71",
+            "kind": "number",
+            "number": 71,
+            "mark": "71"
+        },
+        {
+            "name": "72",
+            "kind": "number",
+            "number": 72,
+            "mark": "72"
+        },
+        {
+            "name": "73",
+            "kind": "number",
+            "number": 73,
+            "mark": "73"
+        },
+        {
+            "name": "74",
+            "kind": "number",
+            "number": 74,
+            "mark": "74"
+        },
+        {
+            "name": "75",
+            "kind": "number",
+            "number": 75,
+            "mark": "75"
+        },
+        {
+            "name": "76",
+            "kind": "number",
+            "number": 76,
+            "mark": "76"
+        },
+        {
+            "name": "77",
+            "kind": "number",
+            "number": 77,
+            "mark": "77"
+        },
+        {
+            "name": "78",
+            "kind": "number",
+            "number": 78,
+            "mark": "78"
+        },
+        {
+            "name": "79",
+            "kind": "number",
+            "number": 79,
+            "mark": "79"
+        },
+        {
+            "name": "80",
+            "kind": "number",
+            "number": 80,
+            "mark": "80"
+        },
+        {
+            "name": "81",
+            "kind": "number",
+            "number": 81,
+            "mark": "81"
+        },
+        {
+            "name": "82",
+            "kind": "number",
+            "number": 82,
+            "mark": "82"
+        },
+        {
+            "name": "83",
+            "kind": "number",
+            "number": 83,
+            "mark": "83"
+        },
+        {
+            "name": "84",
+            "kind": "number",
+            "number": 84,
+            "mark": "84"
+        },
+        {
+            "name": "85",
+            "kind": "number",
+            "number": 85,
+            "mark": "85"
+        },
+        {
+            "name": "86",
+            "kind": "number",
+            "number": 86,
+            "mark": "86"
+        },
+        {
+            "name": "87",
+            "kind": "number",
+            "number": 87,
+            "mark": "87"
+        },
+        {
+            "name": "88",
+            "kind": "number",
+            "number": 88,
+            "mark": "88"
+        },
+        {
+            "name": "89",
+            "kind": "number",
+            "number": 89,
+            "mark": "89"
+        },
+        {
+            "name": "90",
+            "kind": "number",
+            "number": 90,
+            "mark": "90"
+        },
+        {
+            "name": "91",
+            "kind": "number",
+            "number": 91,
+            "mark": "91"
+        },
+        {
+            "name": "92",
+            "kind": "number",
+            "number": 92,
+            "mark": "92"
+        },
+        {
+            "name": "93",
+            "kind": "number",
+            "number": 93,
+            "mark": "93"
+        },
+        {
+            "name": "94",
+            "kind": "number",
+            "number": 94,
+            "mark": "94"
+        },
+        {
+            "name": "95",
+            "kind": "number",
+            "number": 95,
+            "mark": "95"
+        },
+        {
+            "name": "96",
+            "kind": "number",
+            "number": 96,
+            "mark": "96"
+        },
+        {
+            "name": "97",
+            "kind": "number",
+            "number": 97,
+            "mark": "97"
+        },
+        {
+            "name": "98",
+            "kind": "number",
+            "number": 98,
+            "mark": "98"
+        },
+        {
+            "name": "99",
+            "kind": "number",
+            "number": 99,
+            "mark": "99"
+        },
+        {
+            "name": "100",
+            "kind": "number",
+            "number": 100,
+            "mark": "100"
+        }
+    ]
+}

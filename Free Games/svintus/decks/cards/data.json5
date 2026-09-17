@@ -1,0 +1,1026 @@
+{
+    "name": "svintus.cards",
+    "view": {
+        "face": "card-face.html",
+        "back": "card-back.html"
+    },
+    "deck": {
+        "game_name": "${game:name}",
+        "title": "Свинтус",
+        "subtitle": "подложи свинью",
+        "category": "Сброс с правилами этикета",
+        "card_count": "112 карт",
+        "card_width_mm": ${card:width_mm},
+        "card_height_mm": ${card:height_mm}
+    },
+    "cards": [
+        {
+            "name": "красный 0 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "красный 0 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "красный 1 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "красный 1 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "красный 2 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "красный 2 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "красный 3 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "красный 3 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "красный 4 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "красный 4 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "красный 5 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "красный 5 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "красный 6 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "красный 6 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "красный 7 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "красный 7 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 0 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 0 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 1 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 1 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 2 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 2 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 3 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 3 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 4 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 4 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 5 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 5 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 6 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 6 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 7 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "жёлтый 7 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "зелёный 0 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "зелёный 0 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "зелёный 1 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "зелёный 1 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "зелёный 2 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "зелёный 2 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "зелёный 3 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "зелёный 3 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "зелёный 4 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "зелёный 4 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "зелёный 5 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "зелёный 5 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "зелёный 6 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "зелёный 6 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "зелёный 7 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "зелёный 7 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "синий 0 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "синий 0 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "0",
+            "label": "0",
+            "action": ""
+        },
+        {
+            "name": "синий 1 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "синий 1 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "1",
+            "label": "1",
+            "action": ""
+        },
+        {
+            "name": "синий 2 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "синий 2 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "2",
+            "label": "2",
+            "action": ""
+        },
+        {
+            "name": "синий 3 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "синий 3 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "3",
+            "label": "3",
+            "action": ""
+        },
+        {
+            "name": "синий 4 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "синий 4 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "4",
+            "label": "4",
+            "action": ""
+        },
+        {
+            "name": "синий 5 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "синий 5 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "5",
+            "label": "5",
+            "action": ""
+        },
+        {
+            "name": "синий 6 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "синий 6 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "6",
+            "label": "6",
+            "action": ""
+        },
+        {
+            "name": "синий 7 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "синий 7 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "7",
+            "label": "7",
+            "action": ""
+        },
+        {
+            "name": "Захрапин красный (1)",
+            "kind": "skip",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин красный (2)",
+            "kind": "skip",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин жёлтый (1)",
+            "kind": "skip",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин жёлтый (2)",
+            "kind": "skip",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин зелёный (1)",
+            "kind": "skip",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин зелёный (2)",
+            "kind": "skip",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин синий (1)",
+            "kind": "skip",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Захрапин синий (2)",
+            "kind": "skip",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "З",
+            "label": "Захрапин",
+            "action": "следующий пропускает ход"
+        },
+        {
+            "name": "Перехрюк красный (1)",
+            "kind": "reverse",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк красный (2)",
+            "kind": "reverse",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк жёлтый (1)",
+            "kind": "reverse",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк жёлтый (2)",
+            "kind": "reverse",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк зелёный (1)",
+            "kind": "reverse",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк зелёный (2)",
+            "kind": "reverse",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк синий (1)",
+            "kind": "reverse",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Перехрюк синий (2)",
+            "kind": "reverse",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "П",
+            "label": "Перехрюк",
+            "action": "ход идёт в другую сторону"
+        },
+        {
+            "name": "Хапеж красный (1)",
+            "kind": "draw3",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж красный (2)",
+            "kind": "draw3",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж жёлтый (1)",
+            "kind": "draw3",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж жёлтый (2)",
+            "kind": "draw3",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж зелёный (1)",
+            "kind": "draw3",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж зелёный (2)",
+            "kind": "draw3",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж синий (1)",
+            "kind": "draw3",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Хапеж синий (2)",
+            "kind": "draw3",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "Х",
+            "label": "Хапеж",
+            "action": "следующий берёт 3 и пропускает"
+        },
+        {
+            "name": "Молчагрив красный (1)",
+            "kind": "silence",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив красный (2)",
+            "kind": "silence",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив жёлтый (1)",
+            "kind": "silence",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив жёлтый (2)",
+            "kind": "silence",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив зелёный (1)",
+            "kind": "silence",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив зелёный (2)",
+            "kind": "silence",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив синий (1)",
+            "kind": "silence",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Молчагрив синий (2)",
+            "kind": "silence",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "М",
+            "label": "Молчагрив",
+            "action": "все молчат, пока ход не вернётся"
+        },
+        {
+            "name": "Хлопкопыт красный (1)",
+            "kind": "slap",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт красный (2)",
+            "kind": "slap",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт жёлтый (1)",
+            "kind": "slap",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт жёлтый (2)",
+            "kind": "slap",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт зелёный (1)",
+            "kind": "slap",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт зелёный (2)",
+            "kind": "slap",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт синий (1)",
+            "kind": "slap",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Хлопкопыт синий (2)",
+            "kind": "slap",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "Х",
+            "label": "Хлопкопыт",
+            "action": "хлопни по столу — последний берёт 2"
+        },
+        {
+            "name": "Полисвин красный (1)",
+            "kind": "wild",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин красный (2)",
+            "kind": "wild",
+            "color_key": "red",
+            "color_hex": "#c1121f",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин жёлтый (1)",
+            "kind": "wild",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин жёлтый (2)",
+            "kind": "wild",
+            "color_key": "yellow",
+            "color_hex": "#f4a261",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин зелёный (1)",
+            "kind": "wild",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин зелёный (2)",
+            "kind": "wild",
+            "color_key": "green",
+            "color_hex": "#2d6a4f",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин синий (1)",
+            "kind": "wild",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        },
+        {
+            "name": "Полисвин синий (2)",
+            "kind": "wild",
+            "color_key": "blue",
+            "color_hex": "#1d4e89",
+            "mark": "П",
+            "label": "Полисвин",
+            "action": "любой цвет, назови новый"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>The Mind — рубашка</title>
+  <style>
+@page {
+  size: 60mm 91mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 60mm;
+  height: 91mm;
+  background: #000;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 2mm;
+  background: #07080b;
+  color: #e8e6df;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border: 0.5mm solid #2a2e38;
+}
+.card-back .pulse {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: 18mm;
+  height: 18mm;
+  transform: translate(-50%, -50%);
+  border: 0.45mm solid rgba(232, 230, 223, 0.7);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4mm rgba(232, 230, 223, 0.06);
+}
+.card-back .quiet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12mm;
+  text-align: center;
+  font-size: 8pt;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}  </style>
+</head>
+<body>
+  <article class="card-back" style="width: 60.0mm; height: 91.0mm;">
+    <div class="pulse"></div>
+    <div class="quiet">без слов</div>
+  </article>
+</body>
+</html>

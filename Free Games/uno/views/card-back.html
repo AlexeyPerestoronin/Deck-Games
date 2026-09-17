@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }} — рубашка</title>
+  <style>
+    {% include 'card-back.scss' %}
+  </style>
+</head>
+<body>
+  <article class="card-back" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm;">
+    <div class="quad q-red"></div>
+    <div class="quad q-yellow"></div>
+    <div class="quad q-green"></div>
+    <div class="quad q-blue"></div>
+    <div class="oval">
+      <div class="word">{{ deck.title }}</div>
+      <div class="count">{{ deck.card_count }}</div>
+    </div>
+  </article>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }}</title>
+  <style>
+    {% include 'card-face.scss' %}
+  </style>
+</head>
+<body>
+{% for card in cards %}
+  <article class="card bulls-{{ card.bulls }}" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm; --band: {{ card.band }};">
+    <div class="band top"></div>
+    <div class="band bot"></div>
+    <div class="heads top-heads" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <div class="number">{{ card.mark }}</div>
+    <div class="heads bot-heads" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <div class="score">штраф {{ card.bulls }}</div>
+  </article>
+{% endfor %}
+</body>
+</html>

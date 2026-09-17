@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }}</title>
+  <style>
+    {% include 'card-face.scss' %}
+  </style>
+</head>
+<body>
+{% for card in cards %}
+  <article class="card kind-{{ card.kind }} color-{{ card.color_key }}" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm; --c: {{ card.color_hex }};">
+    <div class="frame"></div>
+    <div class="pig" aria-hidden="true">
+      <span class="ear l"></span>
+      <span class="ear r"></span>
+      <span class="head"></span>
+      <span class="snout"></span>
+    </div>
+    <div class="num">{{ card.mark }}</div>
+    <div class="title">{{ card.label }}</div>
+    <div class="act">{{ card.action }}</div>
+  </article>
+{% endfor %}
+</body>
+</html>

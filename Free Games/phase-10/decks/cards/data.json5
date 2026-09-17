@@ -1,0 +1,882 @@
+{
+    "name": "phase-10.cards",
+    "view": {
+        "face": "card-face.html",
+        "back": "card-back.html"
+    },
+    "deck": {
+        "game_name": "${game:name}",
+        "title": "Phase 10",
+        "subtitle": "десять фаз",
+        "category": "Наборы и улицы",
+        "card_count": "108 карт",
+        "card_width_mm": ${card:width_mm},
+        "card_height_mm": ${card:height_mm}
+    },
+    "cards": [
+        {
+            "name": "красный 1 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "красный 1 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "красный 2 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "красный 2 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "красный 3 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "красный 3 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "красный 4 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "красный 4 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "красный 5 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "красный 5 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "красный 6 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "красный 6 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "красный 7 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "красный 7 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "красный 8 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "красный 8 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "красный 9 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "красный 9 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "красный 10 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "красный 10 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "красный 11 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "красный 11 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "красный 12 (1)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "красный 12 (2)",
+            "kind": "number",
+            "color_key": "red",
+            "color_hex": "#d62828",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "жёлтый 1 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "жёлтый 1 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "жёлтый 2 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "жёлтый 2 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "жёлтый 3 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "жёлтый 3 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "жёлтый 4 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "жёлтый 4 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "жёлтый 5 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "жёлтый 5 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "жёлтый 6 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "жёлтый 6 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "жёлтый 7 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "жёлтый 7 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "жёлтый 8 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "жёлтый 8 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "жёлтый 9 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "жёлтый 9 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "жёлтый 10 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "жёлтый 10 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "жёлтый 11 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "жёлтый 11 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "жёлтый 12 (1)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "жёлтый 12 (2)",
+            "kind": "number",
+            "color_key": "yellow",
+            "color_hex": "#f4c430",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "зелёный 1 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "зелёный 1 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "зелёный 2 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "зелёный 2 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "зелёный 3 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "зелёный 3 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "зелёный 4 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "зелёный 4 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "зелёный 5 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "зелёный 5 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "зелёный 6 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "зелёный 6 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "зелёный 7 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "зелёный 7 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "зелёный 8 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "зелёный 8 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "зелёный 9 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "зелёный 9 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "зелёный 10 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "зелёный 10 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "зелёный 11 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "зелёный 11 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "зелёный 12 (1)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "зелёный 12 (2)",
+            "kind": "number",
+            "color_key": "green",
+            "color_hex": "#2a9d8f",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "синий 1 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "синий 1 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "1",
+            "label": "1"
+        },
+        {
+            "name": "синий 2 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "синий 2 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "2",
+            "label": "2"
+        },
+        {
+            "name": "синий 3 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "синий 3 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "3",
+            "label": "3"
+        },
+        {
+            "name": "синий 4 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "синий 4 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "4",
+            "label": "4"
+        },
+        {
+            "name": "синий 5 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "синий 5 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "5",
+            "label": "5"
+        },
+        {
+            "name": "синий 6 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "синий 6 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "6",
+            "label": "6"
+        },
+        {
+            "name": "синий 7 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "синий 7 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "7",
+            "label": "7"
+        },
+        {
+            "name": "синий 8 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "синий 8 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "8",
+            "label": "8"
+        },
+        {
+            "name": "синий 9 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "синий 9 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "9",
+            "label": "9"
+        },
+        {
+            "name": "синий 10 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "синий 10 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "10",
+            "label": "10"
+        },
+        {
+            "name": "синий 11 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "синий 11 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "11",
+            "label": "11"
+        },
+        {
+            "name": "синий 12 (1)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "синий 12 (2)",
+            "kind": "number",
+            "color_key": "blue",
+            "color_hex": "#277da1",
+            "mark": "12",
+            "label": "12"
+        },
+        {
+            "name": "джокер (1)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (2)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (3)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (4)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (5)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (6)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (7)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "джокер (8)",
+            "kind": "wild",
+            "color_key": "wild",
+            "color_hex": "#22223b",
+            "mark": "W",
+            "label": "джокер"
+        },
+        {
+            "name": "пропуск (1)",
+            "kind": "skip",
+            "color_key": "skip",
+            "color_hex": "#4a4e69",
+            "mark": "⊘",
+            "label": "пропуск хода"
+        },
+        {
+            "name": "пропуск (2)",
+            "kind": "skip",
+            "color_key": "skip",
+            "color_hex": "#4a4e69",
+            "mark": "⊘",
+            "label": "пропуск хода"
+        },
+        {
+            "name": "пропуск (3)",
+            "kind": "skip",
+            "color_key": "skip",
+            "color_hex": "#4a4e69",
+            "mark": "⊘",
+            "label": "пропуск хода"
+        },
+        {
+            "name": "пропуск (4)",
+            "kind": "skip",
+            "color_key": "skip",
+            "color_hex": "#4a4e69",
+            "mark": "⊘",
+            "label": "пропуск хода"
+        }
+    ]
+}

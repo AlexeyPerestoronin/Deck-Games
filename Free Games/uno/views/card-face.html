@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }}</title>
+  <style>
+    {% include 'card-face.scss' %}
+  </style>
+</head>
+<body>
+{% for card in cards %}
+  <article class="card kind-{{ card.kind }} color-{{ card.color_key }}" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm; --c: {{ card.color_hex }}; --ink: {{ card.ink }};">
+    <div class="rim"></div>
+    <div class="corner top">{{ card.mark }}</div>
+    <div class="oval">
+      <div class="wild-pie" aria-hidden="true">
+        <span class="q q1"></span><span class="q q2"></span><span class="q q3"></span><span class="q q4"></span>
+      </div>
+      <div class="glyph">{{ card.mark }}</div>
+    </div>
+    <div class="corner bot">{{ card.mark }}</div>
+  </article>
+{% endfor %}
+</body>
+</html>
