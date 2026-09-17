@@ -1,0 +1,17 @@
+{
+    // all paths are relative to the folder of this file
+    "games_root": "./",
+
+    "chrome": {
+        "env_vars": ["CHROME_PATH", "CHROMIUM_PATH"],
+        "executables": [
+            "C:/Program Files/Google/Chrome/Application/chrome.exe",
+            "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+            "C:/Program Files/Microsoft/Edge/Application/msedge.exe",
+            "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+        ],
+        "home_relative": [
+            "AppData/Local/Google/Chrome/Application/chrome.exe"
+        ]
+    },
+}

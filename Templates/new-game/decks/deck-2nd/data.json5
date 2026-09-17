@@ -1,5 +1,5 @@
 {
-    "name": "deck-2nd",
+    "name": "колода №2",
     "view": {
         "face": "simple-front.html",
         "back": "simple-back.html"
