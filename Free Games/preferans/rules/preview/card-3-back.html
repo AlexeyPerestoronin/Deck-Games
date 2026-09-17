@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Преферанс — рубашка</title>
+  <style>
+@page {
+  size: 56mm 87mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 56mm;
+  height: 87mm;
+  background: #fff;
+}
+
+.card-back {
+  position: relative;
+  box-sizing: border-box;
+  width: 56mm;
+  height: 87mm;
+  overflow: hidden;
+  color: var(--ink, #f4ead4);
+  background: linear-gradient(165deg, var(--back-from, #1a3c2a), var(--back-to, #07140e));
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 0.7mm solid #111;
+  border-radius: 3.5mm;
+}
+.card-back .pattern {
+  position: absolute;
+  inset: 3mm;
+  border-radius: 2mm;
+  opacity: 0.55;
+}
+.card-back .edge {
+  position: absolute;
+  inset: 2.2mm;
+  border: 0.45mm solid var(--accent, #c9a227);
+  border-radius: 2.4mm;
+  box-shadow: inset 0 0 0 1.1mm rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+}
+.card-back .medallion {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 38mm;
+  min-height: 38mm;
+  box-sizing: border-box;
+  padding: 4mm 3mm;
+  border-radius: 50%;
+  border: 0.55mm solid var(--accent, #c9a227);
+  background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.14), transparent 55%), linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.45));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.2mm;
+  box-shadow: 0 0 0 1.2mm rgba(0, 0, 0, 0.2);
+}
+.card-back .game {
+  font-size: 7pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.card-back .title {
+  font-size: 13pt;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.card-back .subtitle {
+  font-size: 7.5pt;
+  letter-spacing: 0.04em;
+  opacity: 0.9;
+}
+.card-back .count {
+  margin-top: 0.6mm;
+  font-size: 6.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.pattern-folk .pattern {
+  background: repeating-linear-gradient(45deg, transparent 0 2.6mm, rgba(201, 162, 39, 0.28) 2.6mm 3mm), repeating-linear-gradient(-45deg, transparent 0 2.6mm, rgba(201, 162, 39, 0.18) 2.6mm 3mm);
+}
+
+.pattern-felt .pattern {
+  background: radial-gradient(circle at 50% 50%, transparent 0 1.1mm, rgba(212, 175, 55, 0.22) 1.2mm 1.5mm, transparent 1.6mm), repeating-linear-gradient(0deg, transparent 0 4.2mm, rgba(212, 175, 55, 0.12) 4.2mm 4.5mm), repeating-linear-gradient(90deg, transparent 0 4.2mm, rgba(212, 175, 55, 0.12) 4.2mm 4.5mm);
+  background-size: 6mm 6mm, auto, auto;
+}
+
+.pattern-chips .pattern {
+  background: repeating-radial-gradient(circle at 50% 50%, rgba(244, 234, 212, 0.16) 0 1.2mm, transparent 1.3mm 3.4mm), repeating-linear-gradient(30deg, transparent 0 3mm, rgba(244, 234, 212, 0.12) 3mm 3.35mm);
+}
+
+.pattern-heraldry .pattern {
+  background: repeating-linear-gradient(90deg, transparent 0 3.4mm, rgba(212, 175, 55, 0.16) 3.4mm 3.7mm), repeating-linear-gradient(0deg, rgba(244, 234, 212, 0.05) 0 2mm, transparent 2mm 4mm);
+}
+
+.pattern-hex .pattern {
+  background: repeating-linear-gradient(60deg, transparent 0 3mm, rgba(244, 210, 140, 0.2) 3mm 3.35mm), repeating-linear-gradient(-60deg, transparent 0 3mm, rgba(244, 210, 140, 0.14) 3mm 3.35mm), repeating-linear-gradient(0deg, transparent 0 3mm, rgba(244, 210, 140, 0.1) 3mm 3.35mm);
+}  </style>
+</head>
+<body>
+  <article class="card-back pattern-heraldry" style="width: 56.0mm; height: 87.0mm; --back-from: #4a1024; --back-to: #16060d; --accent: #d7b56a; --ink: #f3e2c0;">
+    <div class="pattern"></div>
+    <div class="edge"></div>
+    <div class="medallion">
+      <div class="game">Преферанс</div>
+      <div class="title">Преферанс</div>
+      <div class="subtitle">игра на взятки</div>
+      <div class="count">32 карты</div>
+    </div>
+  </article>
+</body>
+</html>

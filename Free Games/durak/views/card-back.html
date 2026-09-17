@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }} — рубашка</title>
+  <style>
+    {% include 'card-back.scss' %}
+  </style>
+</head>
+<body>
+  <article class="card-back pattern-{{ deck.pattern }}" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm; --back-from: {{ deck.back_from }}; --back-to: {{ deck.back_to }}; --accent: {{ deck.accent }}; --ink: {{ deck.ink }};">
+    <div class="pattern"></div>
+    <div class="edge"></div>
+    <div class="medallion">
+      <div class="game">{{ game_name }}</div>
+      <div class="title">{{ deck.title }}</div>
+      <div class="subtitle">{{ deck.subtitle }}</div>
+      <div class="count">{{ deck.card_count }}</div>
+    </div>
+  </article>
+</body>
+</html>

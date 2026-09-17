@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{{ deck.title }}</title>
+  <style>
+    {% include 'card-face.scss' %}
+  </style>
+</head>
+<body>
+{% for card in cards %}
+  <article class="card color-{{ card.color }} rank-{{ card.rank_css }}" style="width: {{ deck.card_width_mm }}mm; height: {{ deck.card_height_mm }}mm; --accent: {{ deck.accent }};">
+    <div class="inner-frame"></div>
+    <div class="corner top">
+      <span class="rank">{{ card.rank_mark }}</span>
+      <span class="suit">{{ card.suit }}</span>
+    </div>
+    <div class="face-body">
+      <div class="pips" aria-hidden="true">
+        <i class="p tl">{{ card.suit }}</i>
+        <i class="p tc">{{ card.suit }}</i>
+        <i class="p tr">{{ card.suit }}</i>
+        <i class="p uhl">{{ card.suit }}</i>
+        <i class="p uc">{{ card.suit }}</i>
+        <i class="p uhr">{{ card.suit }}</i>
+        <i class="p ml">{{ card.suit }}</i>
+        <i class="p mc">{{ card.suit }}</i>
+        <i class="p mr">{{ card.suit }}</i>
+        <i class="p lhl">{{ card.suit }}</i>
+        <i class="p lc">{{ card.suit }}</i>
+        <i class="p lhr">{{ card.suit }}</i>
+        <i class="p bl">{{ card.suit }}</i>
+        <i class="p bc">{{ card.suit }}</i>
+        <i class="p br">{{ card.suit }}</i>
+      </div>
+      <div class="ace" aria-hidden="true">{{ card.suit }}</div>
+      <div class="court">
+        <div class="court-frame">
+          <div class="flourish top-fl"></div>
+          <div class="letter">{{ card.rank_mark }}</div>
+          <div class="court-suit">{{ card.suit }}</div>
+          <div class="court-name">{{ card.rank_name }}</div>
+          <div class="flourish bot-fl"></div>
+        </div>
+      </div>
+    </div>
+    <div class="corner bottom">
+      <span class="rank">{{ card.rank_mark }}</span>
+      <span class="suit">{{ card.suit }}</span>
+    </div>
+    <div class="points">{{ card.points }}</div>
+  </article>
+{% endfor %}
+</body>
+</html>

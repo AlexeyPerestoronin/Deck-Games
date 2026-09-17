@@ -1,0 +1,287 @@
+{
+    "name": "tysyacha.cards",
+    "view": {
+        "face": "card-face.html",
+        "back": "card-back.html"
+    },
+    "deck": {
+        "game_name": "${game:name}",
+        "title": "Тысяча",
+        "subtitle": "игра на 1000 очков",
+        "category": "Игра на взятки",
+        "card_count": "24 карты",
+        "accent": "#f0c36a",
+        "back_from": "#7a3e08",
+        "back_to": "#2a1403",
+        "ink": "#ffe9bf",
+        "pattern": "hex",
+        "card_width_mm": ${card:width_mm},
+        "card_height_mm": ${card:height_mm}
+    },
+    "cards": [
+        {
+                "name": "Девятка пик",
+                "rank_mark": "9",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "9",
+                "rank_name": "Девятка",
+                "points": "0"
+        },
+        {
+                "name": "Десятка пик",
+                "rank_mark": "10",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "10",
+                "rank_name": "Десятка",
+                "points": "10"
+        },
+        {
+                "name": "Валет пик",
+                "rank_mark": "В",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "J",
+                "rank_name": "Валет",
+                "points": "2"
+        },
+        {
+                "name": "Дама пик",
+                "rank_mark": "Д",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "Q",
+                "rank_name": "Дама",
+                "points": "3"
+        },
+        {
+                "name": "Король пик",
+                "rank_mark": "К",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "K",
+                "rank_name": "Король",
+                "points": "4"
+        },
+        {
+                "name": "Туз пик",
+                "rank_mark": "Т",
+                "suit": "♠",
+                "suit_key": "spades",
+                "suit_name": "Пики",
+                "color": "black",
+                "rank_css": "A",
+                "rank_name": "Туз",
+                "points": "11"
+        },
+        {
+                "name": "Девятка червей",
+                "rank_mark": "9",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "9",
+                "rank_name": "Девятка",
+                "points": "0"
+        },
+        {
+                "name": "Десятка червей",
+                "rank_mark": "10",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "10",
+                "rank_name": "Десятка",
+                "points": "10"
+        },
+        {
+                "name": "Валет червей",
+                "rank_mark": "В",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "J",
+                "rank_name": "Валет",
+                "points": "2"
+        },
+        {
+                "name": "Дама червей",
+                "rank_mark": "Д",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "Q",
+                "rank_name": "Дама",
+                "points": "3"
+        },
+        {
+                "name": "Король червей",
+                "rank_mark": "К",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "K",
+                "rank_name": "Король",
+                "points": "4"
+        },
+        {
+                "name": "Туз червей",
+                "rank_mark": "Т",
+                "suit": "♥",
+                "suit_key": "hearts",
+                "suit_name": "Черви",
+                "color": "red",
+                "rank_css": "A",
+                "rank_name": "Туз",
+                "points": "11"
+        },
+        {
+                "name": "Девятка бубен",
+                "rank_mark": "9",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "9",
+                "rank_name": "Девятка",
+                "points": "0"
+        },
+        {
+                "name": "Десятка бубен",
+                "rank_mark": "10",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "10",
+                "rank_name": "Десятка",
+                "points": "10"
+        },
+        {
+                "name": "Валет бубен",
+                "rank_mark": "В",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "J",
+                "rank_name": "Валет",
+                "points": "2"
+        },
+        {
+                "name": "Дама бубен",
+                "rank_mark": "Д",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "Q",
+                "rank_name": "Дама",
+                "points": "3"
+        },
+        {
+                "name": "Король бубен",
+                "rank_mark": "К",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "K",
+                "rank_name": "Король",
+                "points": "4"
+        },
+        {
+                "name": "Туз бубен",
+                "rank_mark": "Т",
+                "suit": "♦",
+                "suit_key": "diamonds",
+                "suit_name": "Бубны",
+                "color": "red",
+                "rank_css": "A",
+                "rank_name": "Туз",
+                "points": "11"
+        },
+        {
+                "name": "Девятка треф",
+                "rank_mark": "9",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "9",
+                "rank_name": "Девятка",
+                "points": "0"
+        },
+        {
+                "name": "Десятка треф",
+                "rank_mark": "10",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "10",
+                "rank_name": "Десятка",
+                "points": "10"
+        },
+        {
+                "name": "Валет треф",
+                "rank_mark": "В",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "J",
+                "rank_name": "Валет",
+                "points": "2"
+        },
+        {
+                "name": "Дама треф",
+                "rank_mark": "Д",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "Q",
+                "rank_name": "Дама",
+                "points": "3"
+        },
+        {
+                "name": "Король треф",
+                "rank_mark": "К",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "K",
+                "rank_name": "Король",
+                "points": "4"
+        },
+        {
+                "name": "Туз треф",
+                "rank_mark": "Т",
+                "suit": "♣",
+                "suit_key": "clubs",
+                "suit_name": "Трефы",
+                "color": "black",
+                "rank_css": "A",
+                "rank_name": "Туз",
+                "points": "11"
+        }
+]
+}

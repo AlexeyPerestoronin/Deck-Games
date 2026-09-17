@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тысяча — превью</title>
+  <style>
+    :root {
+      --bg: #1c0e04;
+      --panel: #3a1c08;
+      --accent: #f0c36a;
+      --ink: #ffe9bf;
+      --muted: #e0c48a;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    body {
+      min-height: 100vh;
+      background-image:
+        radial-gradient(circle at 20% 0%, rgba(255,255,255,0.06), transparent 42%),
+        repeating-linear-gradient(90deg, transparent 0 28px, rgba(0,0,0,0.12) 28px 29px);
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 24px 48px;
+    }
+    .hero {
+      border: 1px solid var(--accent);
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(0,0,0,0.18));
+      padding: 22px 24px 18px;
+      margin-bottom: 28px;
+    }
+    .kicker {
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: 11px;
+      color: var(--accent);
+      margin: 0 0 8px;
+    }
+    h1 {
+      font-size: 42px;
+      line-height: 1;
+      margin: 0 0 12px;
+    }
+    .tagline {
+      margin: 0;
+      max-width: 46em;
+      font-size: 17px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 16px;
+    }
+    .scene {
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 22px 16px 28px;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    .hand {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 18px;
+      min-height: 120mm;
+      padding: 12px 8px 8px;
+    }
+    .card-wrap {
+      width: 56mm;
+      text-align: center;
+    }
+    iframe {
+      width: 56mm;
+      height: 87mm;
+      border: 0;
+      background: transparent;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.45);
+      display: block;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .layout-fan .card-wrap:nth-child(1) { transform: rotate(-14deg) translateY(18px); }
+    .layout-fan .card-wrap:nth-child(2) { transform: rotate(-5deg) translateY(4px); }
+    .layout-fan .card-wrap:nth-child(3) { transform: rotate(5deg) translateY(4px); }
+    .layout-fan .card-wrap:nth-child(4) { transform: rotate(14deg) translateY(18px); }
+    .layout-duel .hand { gap: 40px; }
+    .layout-duel .card-wrap:nth-child(1),
+    .layout-duel .card-wrap:nth-child(2) { transform: rotate(-6deg); }
+    .layout-duel .card-wrap:nth-child(3),
+    .layout-duel .card-wrap:nth-child(4) { transform: rotate(6deg); }
+    .layout-table .hand { align-items: center; }
+    .layout-table .card-wrap:nth-child(1) { transform: translateY(-12px); }
+    .layout-table .card-wrap:nth-child(2) { transform: translateY(-12px); }
+    .layout-table .card-wrap:nth-child(3) { transform: translateY(16px); }
+    .layout-table .card-wrap:nth-child(4) { transform: translateY(16px); }
+    .layout-salon .card-wrap { transform: rotate(-2deg); }
+    .layout-salon .card-wrap:nth-child(even) { transform: rotate(2deg); }
+    .layout-marriage .card-wrap:nth-child(3),
+    .layout-marriage .card-wrap:nth-child(4) {
+      outline: 2px solid var(--accent);
+      outline-offset: 8px;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: 56mm 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+    @media (max-width: 800px) {
+      .hand { flex-wrap: wrap; min-height: 0; }
+      .layout-fan .card-wrap,
+      .layout-duel .card-wrap,
+      .layout-table .card-wrap { transform: none !important; }
+      .split { grid-template-columns: 1fr; }
+    }
+    .rules {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .rules li { margin: 0 0 8px; }
+    footer {
+      margin-top: 18px;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="kicker">марьяжи и взятки · 24 карты</p>
+      <h1>Тысяча</h1>
+      <p class="tagline">Первым наберите 1000 очков. Дама и король одной масти — марьяж, он назначает козыря.</p>
+    </header>
+    <section class="scene layout-marriage">
+      <h2>Марьяж червей (100)</h2>
+      <div class="hand">
+        <div class="card-wrap">
+          <iframe src="card-1-face.html" title="Туз бубен · 11"></iframe>
+          <div class="caption">Туз бубен · 11</div>
+        </div>
+        <div class="card-wrap">
+          <iframe src="card-2-face.html" title="Десятка червей · 10"></iframe>
+          <div class="caption">Десятка червей · 10</div>
+        </div>
+        <div class="card-wrap">
+          <iframe src="card-3-face.html" title="Дама червей · 3"></iframe>
+          <div class="caption">Дама червей · 3</div>
+        </div>
+        <div class="card-wrap">
+          <iframe src="card-4-face.html" title="Король червей · 4"></iframe>
+          <div class="caption">Король червей · 4</div>
+        </div>
+      </div>
+    </section>
+    <section class="scene">
+      <h2>Рубашка и правила</h2>
+      <div class="split">
+        <div class="card-wrap">
+          <iframe src="card-1-back.html" title="Рубашка"></iframe>
+          <div class="caption">оборот колоды</div>
+        </div>
+        <ul class="rules">
+        <li>Очки: туз 11, десятка 10, король 4, дама 3, валет 2, девятка 0.</li>
+        <li>Марьяжи: черви 100, бубны 80, трефы 60, пики 40.</li>
+        <li>Классика — 24 карты на троих.</li>
+        <li>Заказ после прикупа, затем розыгрыш взяток.</li>
+        </ul>
+      </div>
+    </section>
+    <footer>Free Games · Тысяча · превью собрано из локальных html-рендеров карт</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Дурак</title>
+  <style>
+@page {
+  size: 56mm 87mm;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 56mm;
+  background: #fff;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: radial-gradient(120% 80% at 50% 0%, #ffffff 0%, #f6f1e6 55%, #efe6d4 100%);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 0.7mm solid #1a1a1a;
+  border-radius: 3.5mm;
+  page-break-after: always;
+  break-after: page;
+}
+.card:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+.card .inner-frame {
+  position: absolute;
+  inset: 1.6mm;
+  border: 0.35mm solid var(--accent, #8a7340);
+  border-radius: 2.2mm;
+  pointer-events: none;
+  opacity: 0.85;
+}
+.card .corner {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.9;
+  width: 9mm;
+}
+.card .corner .rank {
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+.card .corner .suit {
+  font-size: 11pt;
+  margin-top: 0.4mm;
+}
+.card .corner.top {
+  top: 2.4mm;
+  left: 2.2mm;
+}
+.card .corner.bottom {
+  right: 2.2mm;
+  bottom: 2.4mm;
+  transform: rotate(180deg);
+}
+.card .face-body {
+  position: absolute;
+  left: 10mm;
+  right: 10mm;
+  top: 10mm;
+  bottom: 10mm;
+}
+.card .pips {
+  position: absolute;
+  inset: 0;
+}
+.card .pips .p {
+  position: absolute;
+  display: none;
+  font-style: normal;
+  font-size: 15pt;
+  line-height: 1;
+}
+.card .pips .tl {
+  top: 0;
+  left: 0;
+}
+.card .pips .tc {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card .pips .tr {
+  top: 0;
+  right: 0;
+}
+.card .pips .uhl {
+  top: 32%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.card .pips .uc {
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card .pips .uhr {
+  top: 32%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.card .pips .ml {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.card .pips .mc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card .pips .mr {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.card .pips .lhl {
+  top: 68%;
+  left: 0;
+  transform: translateY(-50%) rotate(180deg);
+}
+.card .pips .lc {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
+.card .pips .lhr {
+  top: 68%;
+  right: 0;
+  transform: translateY(-50%) rotate(180deg);
+}
+.card .pips .bl {
+  bottom: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+.card .pips .bc {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
+.card .pips .br {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+.card .ace {
+  display: none;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 34pt;
+  text-shadow: 0 0.4mm 0 rgba(0, 0, 0, 0.08);
+}
+.card .court {
+  display: none;
+  position: absolute;
+  inset: 1mm;
+  align-items: center;
+  justify-content: center;
+}
+.card .court .court-frame {
+  width: 100%;
+  height: 100%;
+  border: 0.45mm solid currentColor;
+  border-radius: 2mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2mm;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.04));
+}
+.card .court .letter {
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1;
+}
+.card .court .court-suit {
+  font-size: 16pt;
+  line-height: 1;
+}
+.card .court .court-name {
+  font-size: 7.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.card .court .flourish {
+  width: 55%;
+  height: 0;
+  border-top: 0.3mm solid currentColor;
+  opacity: 0.55;
+  position: relative;
+}
+.card .court .flourish::before, .card .court .flourish::after {
+  content: "";
+  position: absolute;
+  top: -0.9mm;
+  width: 1.6mm;
+  height: 1.6mm;
+  border: 0.3mm solid currentColor;
+  transform: rotate(45deg);
+  background: #f6f1e6;
+}
+.card .court .flourish::before {
+  left: -0.8mm;
+}
+.card .court .flourish::after {
+  right: -0.8mm;
+}
+.card .points {
+  position: absolute;
+  left: 50%;
+  bottom: 2.2mm;
+  transform: translateX(-50%);
+  z-index: 4;
+  font-size: 6.5pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.4mm 1.6mm;
+  border: 0.25mm solid currentColor;
+  border-radius: 1mm;
+  background: rgba(255, 255, 255, 0.72);
+  opacity: 0.9;
+}
+.card .points:empty {
+  display: none;
+}
+
+.color-red {
+  color: #c41e3a;
+}
+
+.color-black {
+  color: #1c1c1c;
+}
+
+.rank-10 .corner .rank {
+  font-size: 10.5pt;
+  letter-spacing: -0.06em;
+}
+
+.rank-2 .p.tc,
+.rank-2 .p.bc {
+  display: block;
+}
+
+.rank-3 .p.tc,
+.rank-3 .p.mc,
+.rank-3 .p.bc {
+  display: block;
+}
+
+.rank-4 .p.tl,
+.rank-4 .p.tr,
+.rank-4 .p.bl,
+.rank-4 .p.br {
+  display: block;
+}
+
+.rank-5 .p.tl,
+.rank-5 .p.tr,
+.rank-5 .p.mc,
+.rank-5 .p.bl,
+.rank-5 .p.br {
+  display: block;
+}
+
+.rank-6 .p.tl,
+.rank-6 .p.tr,
+.rank-6 .p.ml,
+.rank-6 .p.mr,
+.rank-6 .p.bl,
+.rank-6 .p.br {
+  display: block;
+}
+
+.rank-7 .p.tl,
+.rank-7 .p.tr,
+.rank-7 .p.uc,
+.rank-7 .p.ml,
+.rank-7 .p.mr,
+.rank-7 .p.bl,
+.rank-7 .p.br {
+  display: block;
+}
+
+.rank-8 .p.tl,
+.rank-8 .p.tr,
+.rank-8 .p.uc,
+.rank-8 .p.ml,
+.rank-8 .p.mr,
+.rank-8 .p.lc,
+.rank-8 .p.bl,
+.rank-8 .p.br {
+  display: block;
+}
+
+.rank-9 .p.tl,
+.rank-9 .p.tr,
+.rank-9 .p.uhl,
+.rank-9 .p.uhr,
+.rank-9 .p.mc,
+.rank-9 .p.lhl,
+.rank-9 .p.lhr,
+.rank-9 .p.bl,
+.rank-9 .p.br {
+  display: block;
+}
+
+.rank-10 .p.tl,
+.rank-10 .p.tr,
+.rank-10 .p.uhl,
+.rank-10 .p.uhr,
+.rank-10 .p.uc,
+.rank-10 .p.lc,
+.rank-10 .p.lhl,
+.rank-10 .p.lhr,
+.rank-10 .p.bl,
+.rank-10 .p.br {
+  display: block;
+}
+
+.rank-A .pips {
+  display: none;
+}
+.rank-A .ace {
+  display: flex;
+}
+
+.rank-J .pips,
+.rank-Q .pips,
+.rank-K .pips {
+  display: none;
+}
+.rank-J .ace,
+.rank-Q .ace,
+.rank-K .ace {
+  display: none;
+}
+.rank-J .court,
+.rank-Q .court,
+.rank-K .court {
+  display: flex;
+}  </style>
+</head>
+<body>
+  <article class="card color-red rank-6" style="width: 56.0mm; height: 87.0mm; --accent: #d4b15a;">
+    <div class="inner-frame"></div>
+    <div class="corner top">
+      <span class="rank">6</span>
+      <span class="suit">♥</span>
+    </div>
+    <div class="face-body">
+      <div class="pips" aria-hidden="true">
+        <i class="p tl">♥</i>
+        <i class="p tc">♥</i>
+        <i class="p tr">♥</i>
+        <i class="p uhl">♥</i>
+        <i class="p uc">♥</i>
+        <i class="p uhr">♥</i>
+        <i class="p ml">♥</i>
+        <i class="p mc">♥</i>
+        <i class="p mr">♥</i>
+        <i class="p lhl">♥</i>
+        <i class="p lc">♥</i>
+        <i class="p lhr">♥</i>
+        <i class="p bl">♥</i>
+        <i class="p bc">♥</i>
+        <i class="p br">♥</i>
+      </div>
+      <div class="ace" aria-hidden="true">♥</div>
+      <div class="court">
+        <div class="court-frame">
+          <div class="flourish top-fl"></div>
+          <div class="letter">6</div>
+          <div class="court-suit">♥</div>
+          <div class="court-name">Шестёрка</div>
+          <div class="flourish bot-fl"></div>
+        </div>
+      </div>
+    </div>
+    <div class="corner bottom">
+      <span class="rank">6</span>
+      <span class="suit">♥</span>
+    </div>
+    <div class="points"></div>
+  </article>
+</body>
+</html>
