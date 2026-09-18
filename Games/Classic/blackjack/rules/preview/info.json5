@@ -1,0 +1,13 @@
+{
+    "preview": "preview.html",
+    "icon": "icon.png",
+    "info": {
+        "name": {
+            "EN": "BlackJack",
+            "RU": "БлэкДжек"
+        },
+        "tags": [
+            "classic"
+        ]
+    }
+}
