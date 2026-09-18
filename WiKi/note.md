@@ -1,3 +1,3 @@
 Действий не требуется.
 
-Если позже нужно пересобрать: `deck_gen.exe html --game <uno|take-6|phase-10|the-mind|svintus>` и `deck_gen.exe pdf --game <…>`. В задаче указан флаг `--name`, в текущем `deck_gen.exe` рабочий флаг — `--game`.
+Замечание: у `Games/Original/monopoly-2.0` по-прежнему нет `rules/preview/preview.html`, хотя `info.json5` на него ссылается (как в эталоне Блэкджека). На эту задачу это не влияло.

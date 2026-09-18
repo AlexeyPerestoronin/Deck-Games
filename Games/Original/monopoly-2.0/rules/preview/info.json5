@@ -3,11 +3,11 @@
     "icon": "info.png",
     "info": {
         "name": {
-            "EN": "BlackJack",
-            "RU": "БлэкДжек"
+            "EN": "Monopoly 2.0",
+            "RU": "Монополия 2.0"
         },
         "tags": [
-            "classic"
+            "original"
         ]
     }
 }

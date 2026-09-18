@@ -3,11 +3,11 @@
     "icon": "info.png",
     "info": {
         "name": {
-            "EN": "BlackJack",
-            "RU": "БлэкДжек"
+            "EN": "Uno",
+            "RU": "Уно"
         },
         "tags": [
-            "classic"
+            "modern"
         ]
     }
 }

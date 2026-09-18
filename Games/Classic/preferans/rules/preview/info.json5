@@ -3,8 +3,8 @@
     "icon": "info.png",
     "info": {
         "name": {
-            "EN": "BlackJack",
-            "RU": "БлэкДжек"
+            "EN": "Preferans",
+            "RU": "Преферанс"
         },
         "tags": [
             "classic"
